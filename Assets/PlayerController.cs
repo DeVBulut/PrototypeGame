@@ -23,27 +23,43 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI outputField2;
     private BoxCollider2D groundCheck;
 
+    #region State Machine Variables 
+
+    public PlayerStateMachine stateMachine { get; set; }
+    public PlayerIdleState idleState { get; set; }
+    public PlayerRunState runState { get; set; }
+
+    #endregion
+
     public string playerState;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void Awake()
+    {
+        stateMachine = new PlayerStateMachine();
+        idleState = new PlayerIdleState(this, stateMachine);
+        runState = new PlayerRunState(this, stateMachine);
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         groundCheck = transform.GetChild(0).GetComponent<BoxCollider2D>();
+        stateMachine.Initialize(idleState);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        DetermineState();
+        //DetermineState();
+        stateMachine.CurrentPlayerState.FrameUpdate();
         Flip();
         ControlDeveloperPanel();
     }
 
     void FixedUpdate()
     {
+        stateMachine.CurrentPlayerState.PhysicsUpdate();
         Move();
     }
     

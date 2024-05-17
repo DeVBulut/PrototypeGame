@@ -66,8 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\VariableList.cs" />
+    <Compile Include="Assets\PlayerState.cs" />
+    <Compile Include="Assets\PlayerIdleState.cs" />
     <Compile Include="Assets\InputSystem_Actions.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\PlayerStateMachine.cs" />
+    <Compile Include="Assets\PlayerRunState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMPro.cginc" />
