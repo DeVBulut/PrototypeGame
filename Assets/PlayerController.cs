@@ -9,7 +9,7 @@ using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
-    private bool alive = true;
+    //private bool alive = true;
     [SerializeField] float runSpeed = 10f;
     [SerializeField] float airSpeed = 7f;
     private float InputAxis;
@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
     public PlayerStateMachine stateMachine { get; set; }
     public PlayerIdleState idleState { get; set; }
     public PlayerRunState runState { get; set; }
+    public PlayerRunStartState runStartState { get; set; }
+    public PlayerRunStopState runStopState { get; set; }
 
     #endregion
 
@@ -35,17 +37,20 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        stateMachine = new PlayerStateMachine();
-        idleState = new PlayerIdleState(this, stateMachine);
-        runState = new PlayerRunState(this, stateMachine);
-    }
-
-    void Start()
-    {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         groundCheck = transform.GetChild(0).GetComponent<BoxCollider2D>();
+
+        stateMachine = new PlayerStateMachine();
+        idleState = new PlayerIdleState(this, stateMachine, animator, rb);
+        runState = new PlayerRunState(this, stateMachine, animator, rb);
+        runStartState = new PlayerRunStartState(this, stateMachine, animator, rb);
+        runStopState = new  PlayerRunStopState(this, stateMachine, animator, rb);
+    }
+
+    void Start()
+    {
         stateMachine.Initialize(idleState);
     }
 
@@ -63,192 +68,6 @@ public class PlayerController : MonoBehaviour
         Move();
     }
     
-    public void DetermineState()
-    {
-        if (!alive)
-        {
-            StartState(VariableList.STATE_DEAD);
-        }
-        //Ground State Selection
-        else if (isGrounded() == true) 
-        {
-            //Determine if Idle
-            if (Mathf.Abs(InputAxis) != 1 && Mathf.Abs(rb.velocity.x) < 0.2f)
-            {
-                StartState(VariableList.STATE_IDLE);
-            }
-            //Determine if either turning or accelerating start
-            else if (InputAxis != 0 && Mathf.Abs(rb.velocity.x) < 1.5f)
-            {
-                if(playerState == VariableList.STATE_RUNNING)
-                {
-                    StartState(VariableList.STATE_RUN_TURN);
-                }
-                else if (playerState != VariableList.STATE_RUNNING && playerState != VariableList.STATE_RUN_TURN) 
-                {
-                    StartState(VariableList.STATE_RUN_START);
-                } 
-                
-            }
-            //Determine if Stopping
-            else if (InputAxis == 0 && Mathf.Abs(rb.velocity.x) < 1.5f && Mathf.Abs(rb.velocity.x) > 0.2f)
-            {
-                StartState(VariableList.STATE_RUN_STOP);
-            }
-            //Determine if Running
-            else if (Mathf.Abs(rb.velocity.x) > 0.8f)
-            {
-                if (InputAxis != 0)
-                {
-                    StartState(VariableList.STATE_RUNNING);
-                }
-            }
-        }
-        //Air State Selection
-        else if (!isGrounded())
-        {
-            if (rb.velocity.y < 0.5 && rb.velocity.y > -0.5)
-            {
-                StartState(VariableList.STATE_AIR_PEAK);
-            }
-            else if (rb.velocity.y > 0)
-            {
-                StartState(VariableList.STATE_AIR_RISE);
-            }
-            else if (rb.velocity.y < 0)
-            {
-                StartState(VariableList.STATE_AIR_FALL);
-            }
-        }
-    }
-
-    public void StartState(string state)
-    {
-        //update State Physics Continously
-        UpdateState(state);
-
-        //if state is not the same as before -> update the playerState
-        if (playerState != state) 
-        {
-            //IF CURRENT STATE IS RUN START AND NEW STATE IS RUNNING THEN WAIT FOR RUN START TO FINISH
-            if(playerState == VariableList.STATE_RUN_START && state == VariableList.STATE_RUNNING)
-            {
-                //Wait for animation to finish
-                if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99) 
-                {
-                    playerState = state;
-                } 
-                //if not finished return
-                else 
-                {
-                    return;
-                }
-            }
-            //IF CURRENT STATE ISN'T TURNING THEN PUSH NEXT STATE
-            else if (playerState != VariableList.STATE_RUN_TURN) 
-            {
-                //Modify the current state by pushing desired state
-                playerState = state;
-            }
-            //IF CURRENT STATE IS TURNING AND CHARACTER IS GROUNDED THEN IGNORE OTHER STATE REQUESTS
-            else if(playerState == VariableList.STATE_RUN_TURN && isGrounded())
-            {
-                if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99) 
-                {
-                    playerState = state;
-                } 
-                else 
-                {
-                    return;
-                }
-            }
-        }
-        //if state is the same as playerState -> don't do anything
-        else {return; }
-
-        Debug.Log(state + " ||  InputAxis is :" + InputAxis);
-        
-        switch (state)
-        {
-            case VariableList.STATE_DEAD: 
-            {
-                Debug.Log("Character Dead");
-                runSpeed = 0;
-                break;
-            }
-
-            case VariableList.STATE_IDLE:
-            {
-                animator.Play(state);
-                break;
-            }
-
-            case VariableList.STATE_RUNNING:
-            {
-                animator.Play(state);
-                break;
-            }
-
-            case VariableList.STATE_AIR_RISE:
-            {
-                animator.Play(state);       
-                break;
-            }
-
-            case VariableList.STATE_AIR_PEAK:
-            {
-                animator.Play(state);
-                break;
-            }
-
-            case VariableList.STATE_AIR_FALL:
-            {
-                animator.Play(state);
-                break;
-            }
-
-            default:{
-                animator.Play(state);
-                break;
-            }
-        }
-
-    }
-
-    public void UpdateState(string state)
-    {
-        switch (state){
-            case VariableList.STATE_DEAD: 
-            {
-                    break;
-            }
-
-            case VariableList.STATE_IDLE:
-            {
-                    //Play Idle
-                    break;
-            }
-
-            case VariableList.STATE_AIR_RISE:
-            {
-                 //Play Rise
-                break;
-            }
-
-            case VariableList.STATE_AIR_PEAK:
-            {
-                //Play Peak
-                break;
-            }
-
-            case VariableList.STATE_AIR_FALL:
-            {
-                 //Play Fall
-                break;
-            }
-        }
-    }
-
     //Movement Code
     public void Move() 
     {
@@ -280,25 +99,23 @@ public class PlayerController : MonoBehaviour
 
     public void Flip()
     {
-        if (playerState != VariableList.STATE_RUNNING) 
+        if (InputAxis < 0f)
         {
-            if (InputAxis < 0f)
+            if (spriteRenderer.flipX == false)
             {
-                if (spriteRenderer.flipX == false)
-                {
-                    //StartState(VariableList.STATE_RUN_TURN);
-                    spriteRenderer.flipX = true;
-                }
-            }
-            else if (InputAxis > 0f)
-            {
-                if (spriteRenderer.flipX == true)
-                {
-                    //StartState(VariableList.STATE_RUN_TURN);
-                    spriteRenderer.flipX = false;
-                }
+                //StartState(VariableList.STATE_RUN_TURN);
+                spriteRenderer.flipX = true;
             }
         }
+        else if (InputAxis > 0f)
+        {
+            if (spriteRenderer.flipX == true)
+            {
+                //StartState(VariableList.STATE_RUN_TURN);
+                spriteRenderer.flipX = false;
+            }
+        }
+        
     }
 
     //Boolean Functions
