@@ -3,12 +3,11 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace Cinemachine
+namespace Unity.Cinemachine
 {
     /// <summary>
     /// Attempt to track on what clock transforms get updated
     /// </summary>
-    [DocumentationSorting(DocumentationSortingAttribute.Level.Undoc)]
     internal class UpdateTracker
     {
         public enum UpdateClock { Fixed, Late }
@@ -73,37 +72,36 @@ namespace Cinemachine
                 }
             }
         }
-        static Dictionary<Transform, UpdateStatus> mUpdateStatus 
-            = new Dictionary<Transform, UpdateStatus>();
+        static Dictionary<Transform, UpdateStatus> m_UpdateStatus  = new();
 
         [RuntimeInitializeOnLoadMethod]
-        static void InitializeModule() { mUpdateStatus.Clear(); }
+        static void InitializeModule() => m_UpdateStatus.Clear();
         
-        static List<Transform> sToDelete = new List<Transform>();
+        static List<Transform> s_ToDelete = new();
         static void UpdateTargets(UpdateClock currentClock)
         {
             // Update the registry for all known targets
             int now = Time.frameCount;
-            var iter = mUpdateStatus.GetEnumerator();
+            var iter = m_UpdateStatus.GetEnumerator();
             while (iter.MoveNext())
             {
                 var current = iter.Current;
                 if (current.Key == null)
-                    sToDelete.Add(current.Key); // target was deleted
+                    s_ToDelete.Add(current.Key); // target was deleted
                 else
                     current.Value.OnUpdate(now, currentClock, current.Key.localToWorldMatrix);
             }
-            for (int i = sToDelete.Count-1; i >= 0; --i)
-                mUpdateStatus.Remove(sToDelete[i]);
-            sToDelete.Clear();
+            for (int i = s_ToDelete.Count-1; i >= 0; --i)
+                m_UpdateStatus.Remove(s_ToDelete[i]);
+            s_ToDelete.Clear();
+            iter.Dispose();
         }
 
         public static UpdateClock GetPreferredUpdate(Transform target)
         {
             if (Application.isPlaying && target != null)
             {
-                UpdateStatus status;
-                if (mUpdateStatus.TryGetValue(target, out status))
+                if (m_UpdateStatus.TryGetValue(target, out var status))
                     return status.PreferredUpdate;
 
                 // Add the target to the registry
@@ -112,19 +110,19 @@ namespace Cinemachine
 #else
                 status = new UpdateStatus(Time.frameCount, target.localToWorldMatrix);
 #endif
-                mUpdateStatus.Add(target, status);
+                m_UpdateStatus.Add(target, status);
             }
             return UpdateClock.Late;
         }
 
-        static float mLastUpdateTime;
+        static float m_LastUpdateTime;
         public static void OnUpdate(UpdateClock currentClock)
         {
             // Do something only if we are the first controller processing this frame
             float now = CinemachineCore.CurrentTime;
-            if (now != mLastUpdateTime)
+            if (now != m_LastUpdateTime)
             {
-                mLastUpdateTime = now;
+                m_LastUpdateTime = now;
                 UpdateTargets(currentClock);
             }
         }

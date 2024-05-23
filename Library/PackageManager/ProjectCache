@@ -5,27 +5,35 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638511337227584903
-    m_Hash: 1225396904
+      ticks: 638520214288318932
+    m_Hash: 3615132205
   m_LockFileStatus:
     m_FilePath: C:/Unity Projects/PrototypeGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638514388719638136
-    m_Hash: 1339799442
+      ticks: 638520214701465410
+    m_Hash: 2051809672
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Unity Projects/PrototypeGame/Packages/com.singularitygroup.hotreload/package.json:
+      m_FilePath: C:/Unity Projects/PrototypeGame/Packages/com.singularitygroup.hotreload/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638380145950000000
+      m_Hash: 527610485
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Unity Projects/PrototypeGame/Packages
 m_EditorVersion: 6000.0.1f1 (d9cf669c6271)
 m_ResolvedPackages:
-- packageId: com.unity.cinemachine@2.10.0
+- packageId: com.unity.cinemachine@3.1.0
   testable: 0
   isDirectDependency: 1
-  version: 2.10.0
+  version: 3.1.0
   source: 1
   resolvedPath: C:\Unity Projects\PrototypeGame\Library\PackageCache\com.unity.cinemachine
   assetPath: Packages/com.unity.cinemachine
@@ -37,11 +45,10 @@ m_ResolvedPackages:
     url: 
   category: cinematography
   type: assets
-  description: "Smart camera tools for passionate creators. \n\nNew starting from
-    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
-    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
-    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
-    this version from the Package Manager."
+  description: "Smart camera tools for passionate creators. \n\nCinemachine 3 is
+    a newer and better version of Cinemachine, but upgrading an existing project
+    from 2.X will likely require some effort.  If you're considering upgrading an
+    older project, please see our upgrade guide in the user manual."
   errors: []
   versions:
     all:
@@ -134,16 +141,20 @@ m_ResolvedPackages:
     recommended: 3.1.0
     deprecated: []
   dependencies:
-  - name: com.unity.test-framework
-    version: 1.1.31
+  - name: com.unity.splines
+    version: 2.0.0
   resolvedDependencies:
-  - name: com.unity.test-framework
-    version: 1.4.4
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.modules.imgui
+  - name: com.unity.splines
+    version: 2.6.0
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
+  - name: com.unity.modules.imgui
     version: 1.0.0
   keywords:
   - camera
@@ -180,13 +191,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638451680320000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html
+  datePublishedTicks: 638488564720000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 3b55bae0f41b1048cc2080391ac3d4eb1c22b7ef
+    revision: 3c237e5dd7e9982ebad685471714bbd6eda41890
     path: 
   unityLifecycle:
     version: 2.10.0
@@ -199,13 +210,38 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Bugfix: CinemachineFreeLook.ForceCameraPosition()
-    sometimes did not take full effect immediately.\n- Bugfix: 3rdPersonFollow sometimes
-    generated invalid camera position when the target when DampingWhenOccluded is
-    nonzero."}'
+  upmReserved: '{"changelog":"### Fixed\n- Bugfix: index out of range exception when
+    adding a Cm Shot to a timeline track whose CinemachineBrain is inactive.\n- Bugfix:
+    OrbitalFollow with 3-ring setup would inappropriately damp in respose to vertical
+    input if LookAt and Follow were at different vertical positions.\n- Bugfix: StateDrivenCamera
+    min activation time was broken.\n- Bugfix: Solo not updating when brain is in
+    FixedUpdate.\n- Bugfix: Spline roll was being calculated incorrectly when spline
+    was rotated.\n- Bugfix: \"Freeze When Blending Out\" didn''t work when switching
+    betwen two cameras multiple times.\n- Bugfix: Cinemachine cameras would sometimes
+    unnecessarily dirty the scene due to floating-point imprecision when setting
+    transform rotations.\n\n### Added\n- Added CinemachineDecollider to resolve camera
+    intersection with colliders and terrains, without necessarily preserving line-of-sight
+    to target.\n- CinemachineDeoccluder has the option to resolve towards the Follow
+    target instead of the LookAt target.\n- Added CinemachineShotQualityEvaluator
+    which is a standalone version of the evaluation code in Deoccluder.\n- Added
+    StateDrivenCamera.CancelWait() method to cancel the current wait on a pending
+    state change.\n- Added FlyAround sample scene showing a simple fly-around camera.\n-
+    Added IgnoreTimeScale option to InputAxisControllerBase.\n- Added confirmation
+    dialog when exiting play mode, if Save During Play is enabled and changes have
+    been made to saveable properties.\n\n### Changed\n- SplineDolly and SplineCart:
+    position on spline is preserved when units change.\n- SimplePlayerAimController
+    sample upgraded to work on arbitrary surfaces (no longer depends on world up).\n-
+    SimplePlayerController sample has logic to avoid input gimbal lock when player
+    is upside-down relative to the camera.\n- PlayerOnSphere sample is now PlayerOnSurface
+    - can walk on arbitrary surfaces.\n- Axis recentering happens independently on
+    axes with differing recentering tmes, so that input on one axis does not impact
+    the recentering state of the others.\n- FreeLookOnSphericalSurface sample is
+    improved, adding a moving surface and second camera.\n- Replaced SameAsFollowTarget
+    with RotateWithFollowTarget (SameAsFollowTarget still exists but is deprecated).\n-
+    Deoccluder evaluates shots in the Finalize stage instead of Aim."}'
   assetStore:
     productId: 
-  fingerprint: 6f06b54a94ce5abd9e780534a6b389ad75950ee0
+  fingerprint: ceed3a7f8d67cb3d7c3aae3abd4febbdadc35a98
 - packageId: com.unity.collab-proxy@2.3.1
   testable: 0
   isDirectDependency: 1
@@ -3692,6 +3728,84 @@ m_ResolvedPackages:
   assetStore:
     productId: 
   fingerprint: 
+- packageId: com.singularitygroup.hotreload@file:C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload
+  testable: 1
+  isDirectDependency: 1
+  version: 1.12.9
+  source: 3
+  resolvedPath: C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload
+  assetPath: Packages/com.singularitygroup.hotreload
+  name: com.singularitygroup.hotreload
+  displayName: Hot Reload
+  author:
+    name: 
+    email: 
+    url: 
+  category: Engineering
+  type: 
+  description: Change code and get immediate updates in the Unity Editor or on-device.
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - Hot
+  - Reload
+  - patch
+  - code
+  - sg
+  - singularity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -4847,6 +4961,7 @@ m_ResolvedPackages:
     - 9.0.3
     - 9.0.4
     - 9.1.0
+    - 9.1.1
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -4855,9 +4970,11 @@ m_ResolvedPackages:
     - 10.0.3
     - 10.1.0
     - 10.1.1
+    - 10.1.2
     compatible:
     - 10.1.1
-    recommended: 10.1.1
+    - 10.1.2
+    recommended: 10.1.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -5127,6 +5244,7 @@ m_ResolvedPackages:
     - 8.0.2
     - 8.0.3
     - 8.0.4
+    - 8.0.5
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -5368,6 +5486,7 @@ m_ResolvedPackages:
     - 9.0.0
     - 9.0.1
     - 9.0.2
+    - 9.0.3
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -5375,9 +5494,11 @@ m_ResolvedPackages:
     - 10.0.2
     - 10.0.3
     - 10.0.4
+    - 10.0.5
     compatible:
     - 10.0.4
-    recommended: 10.0.4
+    - 10.0.5
+    recommended: 10.0.5
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5785,6 +5906,123 @@ m_ResolvedPackages:
   assetStore:
     productId: 
   fingerprint: 33ffc4ba68c903904ff63c89f45d027f9c708337
+- packageId: com.unity.splines@2.6.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.6.0
+  source: 1
+  resolvedPath: C:\Unity Projects\PrototypeGame\Library\PackageCache\com.unity.splines
+  assetPath: Packages/com.unity.splines
+  name: com.unity.splines
+  displayName: Splines
+  author:
+    name: 
+    email: 
+    url: 
+  category: Tool
+  type: tool
+  description: Work with curves and paths. Use the Splines package to generate objects
+    and behaviors along paths, create trajectories, and draw shapes.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 1.0.0-pre.5
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0
+    - 2.4.0
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    compatible:
+    - 2.6.0
+    recommended: 2.6.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - spline
+  - curve
+  - path
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638491312260000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
+    revision: 65b428969b9590a4e35cee1c042a490669555e17
+    path: 
+  unityLifecycle:
+    version: 2.6.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added new APIs that enable users to
+    directly provide a collection of `float3` knot positions to a `Spline` constructor,
+    or to the new `Add`, `AddRange`, `Insert`, and `InsertRange` methods, instead
+    of using `BezierKnots`.\n- Added an event to the `SplineAnimate` component that
+    is triggered when the animation or loop is completed.\n\n### Changed\n\n- Changed
+    supported version in the documentation dropdown selector to 2022.3 and later.
+    \n\n### Bug Fixes\n\n- [SPLB-246] Fixed performance and garbage collection (GC)
+    memory allocation issues when evaluating splines using `SplineContainer` API.\n-
+    [STO-3176] Fixed an issue where `FitSplineToPoints` utility would not fit splines
+    correctly.\n- [SPLB-249] Fixed a bug where setting a spline game object position
+    was overridden by the knot placement tool.\n- Fixed a bug where using the knot
+    placement tool on scaled objects would not create the correct tangents.\n- Fixed
+    a bug where changing the scale of a spline game object would not update the scene
+    view handles.\n- [SPLB-239] Fixed a bug where reverting overrides of a spline
+    prefab instance would not properly update its visuals.\n- [SPLB-238] Fixed a
+    bug where `SplineAnimate` component would continuously output messages to the
+    Console when in playmode and animated object was selected.\n- [SPLB-245] Fixed
+    a bug where `SplineAnimate` component would rotate the animated object on playmode
+    exit."}'
+  assetStore:
+    productId: 
+  fingerprint: 9b9008d392615d2682bdf57d780f3dc75c595fef
 - packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
@@ -6186,9 +6424,11 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 9.0.4
+    - 9.0.5
     compatible:
     - 9.0.4
-    recommended: 9.0.4
+    - 9.0.5
+    recommended: 9.0.5
     deprecated: []
   dependencies:
   - name: com.unity.2d.sprite
@@ -6258,6 +6498,76 @@ m_ResolvedPackages:
   assetStore:
     productId: 
   fingerprint: 5463af8c0a9360bd008b6cfcbcff3b3d4eb79b0e
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Unity Projects\PrototypeGame\Library\PackageCache\com.unity.settings-manager
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
 - packageId: com.unity.nuget.mono-cecil@1.11.4
   testable: 0
   isDirectDependency: 0

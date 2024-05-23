@@ -5,15 +5,16 @@
   },
   "inputs": [
     "C:\\Unity Projects\\PrototypeGame\\Packages\\manifest.json",
-    "C:\\Unity Projects\\PrototypeGame\\Packages\\packages-lock.json"
+    "C:\\Unity Projects\\PrototypeGame\\Packages\\packages-lock.json",
+    "C:\\Unity Projects\\PrototypeGame\\Packages\\com.singularitygroup.hotreload\\package.json"
   ],
   "outputs": {
-    "com.unity.cinemachine@2.10.0": {
+    "com.unity.cinemachine@3.1.0": {
       "name": "com.unity.cinemachine",
       "resolvedPath": "C:\\Unity Projects\\PrototypeGame\\Library\\PackageCache\\com.unity.cinemachine",
-      "fingerprint": "6f06b54a94ce5abd9e780534a6b389ad75950ee0",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "2.10.0",
+      "fingerprint": "ceed3a7f8d67cb3d7c3aae3abd4febbdadc35a98",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "3.1.0",
       "source": "registry"
     },
     "com.unity.collab-proxy@2.3.1": {
@@ -287,6 +288,13 @@
       "version": "1.0.0",
       "source": "builtin"
     },
+    "com.singularitygroup.hotreload@file:C:\\Unity Projects\\PrototypeGame\\Packages\\com.singularitygroup.hotreload": {
+      "name": "com.singularitygroup.hotreload",
+      "resolvedPath": "C:\\Unity Projects\\PrototypeGame\\Packages\\com.singularitygroup.hotreload",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "1.12.9",
+      "source": "embedded"
+    },
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "resolvedPath": "C:\\Unity Projects\\PrototypeGame\\Library\\PackageCache\\com.unity.modules.subsystems",
@@ -411,6 +419,14 @@
       "version": "1.1.3",
       "source": "registry"
     },
+    "com.unity.splines@2.6.0": {
+      "name": "com.unity.splines",
+      "resolvedPath": "C:\\Unity Projects\\PrototypeGame\\Library\\PackageCache\\com.unity.splines",
+      "fingerprint": "9b9008d392615d2682bdf57d780f3dc75c595fef",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.6.0",
+      "source": "registry"
+    },
     "com.unity.searcher@4.9.2": {
       "name": "com.unity.searcher",
       "resolvedPath": "C:\\Unity Projects\\PrototypeGame\\Library\\PackageCache\\com.unity.searcher",
@@ -441,6 +457,14 @@
       "fingerprint": "5463af8c0a9360bd008b6cfcbcff3b3d4eb79b0e",
       "editorCompatibility": "2023.1.0a1",
       "version": "9.0.4",
+      "source": "registry"
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "resolvedPath": "C:\\Unity Projects\\PrototypeGame\\Library\\PackageCache\\com.unity.settings-manager",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
       "source": "registry"
     },
     "com.unity.nuget.mono-cecil@1.11.4": {

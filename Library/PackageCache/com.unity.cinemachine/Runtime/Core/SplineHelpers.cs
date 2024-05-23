@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace Cinemachine.Utility
+namespace Unity.Cinemachine
 {
     /// <summary>
     /// A collection of utilities relating to Bezier splines
     /// </summary>
-    public static class SplineHelpers
+    static class SplineHelpers
     {
         /// <summary>Compute the value of a 4-point 3-dimensional bezier spline</summary>
         /// <param name="t">How far along the spline (0...1)</param>
@@ -47,7 +47,6 @@ namespace Cinemachine.Utility
         /// <param name="w0">First output weight</param>
         /// <param name="w1">Second output weight</param>
         /// <param name="w2">Third output weight</param>
-        /// <returns>Weights for the bezier tangent</returns>
         public static void BezierTangentWeights3(
             Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3,
             out Vector3 w0, out Vector3 w1, out Vector3 w2)

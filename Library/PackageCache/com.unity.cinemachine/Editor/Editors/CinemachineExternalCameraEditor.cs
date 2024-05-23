@@ -1,19 +1,24 @@
-using System.Collections.Generic;
 using UnityEditor;
+using UnityEngine.UIElements;
+using UnityEditor.UIElements;
 
-namespace Cinemachine.Editor
+namespace Unity.Cinemachine.Editor
 {
     [CustomEditor(typeof(CinemachineExternalCamera))]
     [CanEditMultipleObjects]
-    internal class CinemachineExternalCameraEditor 
-        : CinemachineVirtualCameraBaseEditor<CinemachineExternalCamera>
+    class CinemachineExternalCameraEditor : UnityEditor.Editor
     {
-        /// <summary>Get the property names to exclude in the inspector.</summary>
-        /// <param name="excluded">Add the names to this list</param>
-        protected override void GetExcludedPropertiesInInspector(List<string> excluded)
+        CinemachineExternalCamera Target => target as CinemachineExternalCamera;
+
+        public override VisualElement CreateInspectorGUI()
         {
-            base.GetExcludedPropertiesInInspector(excluded);
-            excluded.Add("Extensions");
+            var ux = new VisualElement();
+
+            this.AddCameraStatus(ux);
+            this.AddTransitionsSection(ux, new () { serializedObject.FindProperty(() => Target.BlendHint) });
+            ux.Add(new PropertyField(serializedObject.FindProperty(() => Target.LookAtTarget)));
+
+            return ux;
         }
     }
 }

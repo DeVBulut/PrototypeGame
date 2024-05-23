@@ -2,12 +2,12 @@ using System;
 using System.Linq.Expressions;
 using UnityEditor;
 
-namespace Cinemachine.Editor
+namespace Unity.Cinemachine.Editor
 {
     /// <summary>
-    /// Helpers for the editor relating to SerializedPropertys
+    /// Helpers for the editor relating to SerializedProperties
     /// </summary>
-    public static class SerializedPropertyHelper
+    static class SerializedPropertyHelper
     {
         /// <summary>
         /// This is a way to get a field name string in such a manner that the compiler will
@@ -26,8 +26,7 @@ namespace Cinemachine.Editor
         /// <returns></returns>
         public static string PropertyName(Expression<Func<object>> exp)
         {
-            var body = exp.Body as MemberExpression;
-            if (body == null)
+            if (exp.Body is not MemberExpression body)
             {
                 var ubody = (UnaryExpression)exp.Body;
                 body = ubody.Operand as MemberExpression;
@@ -57,16 +56,24 @@ namespace Cinemachine.Editor
             return obj.FindPropertyRelative(PropertyName(exp));
         }
 
-        /// <summary>Get the value of a proprty, as an object</summary>
+        /// <summary>Get the value of a property, as an object</summary>
         /// <param name="property">The property to query</param>
         /// <returns>The object value of the property</returns>
         public static object GetPropertyValue(SerializedProperty property)
         {
             var targetObject = property.serializedObject.targetObject;
-            var targetObjectClassType = targetObject.GetType();
-            var field = targetObjectClassType.GetField(property.propertyPath);
+            var field = targetObject.GetType().GetField(property.propertyPath);
             if (field != null)
                 return field.GetValue(targetObject);
+
+            var paths = property.propertyPath.Split('.');
+            if (paths.Length > 1)
+            {
+                var fieldOwner = ReflectionHelpers.GetParentObject(property.propertyPath, targetObject);
+                field = fieldOwner?.GetType().GetField(paths[paths.Length-1]);
+                if (field != null)
+                    return field.GetValue(fieldOwner);
+            }
             return null;
         }
     }
