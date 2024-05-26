@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class PlayerStateMachine
+public class PlayerStateMachine : MonoBehaviour
 {
-    public PlayerState CurrentPlayerState { get; set; }
+    public PlayerState CurrentPlayerState;
 
     public void Initialize(PlayerState playerState)
     {

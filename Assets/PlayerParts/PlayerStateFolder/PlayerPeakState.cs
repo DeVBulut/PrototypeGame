@@ -21,7 +21,7 @@ public class PlayerPeakState : PlayerState
         }
         else if(playerController.isGrounded())
         {
-            playerStateMachine.ChangeState(playerController.idleState);
+            playerStateMachine.ChangeState(playerController.landState);
         }
     }
 

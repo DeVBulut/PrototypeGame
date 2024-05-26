@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework.Interfaces;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
@@ -25,15 +26,16 @@ public class PlayerController : MonoBehaviour
 
     #region State Machine Variables 
 
-    public PlayerStateMachine stateMachine { get; set; }
-    public PlayerIdleState idleState { get; set; }
-    public PlayerRunState runState { get; set; }
-    public PlayerRunStartState runStartState { get; set; }
-    public PlayerRunStopState runStopState { get; set; }
-    public PlayerRiseState riseState { get; set; }
-    public PlayerPeakState peakState { get; set; }
-    public PlayerFallState fallState { get; set; }
-
+    public PlayerStateMachine stateMachine;
+    public PlayerIdleState idleState;
+    public PlayerRunState runState;
+    public PlayerRunStartState runStartState;
+    public PlayerRunStopState runStopState;
+    public PlayerRiseState riseState;
+    public PlayerPeakState peakState;
+    public PlayerFallState fallState;
+    public PlayerTurnState turnState;
+    public PlayerLandState landState;
 
     #endregion
 
@@ -44,14 +46,15 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         groundCheck = transform.GetChild(0).GetComponent<BoxCollider2D>();
 
-        stateMachine =  new PlayerStateMachine();
-        idleState =     new PlayerIdleState(this, stateMachine, animator, rb);
-        runState =      new PlayerRunState(this, stateMachine, animator, rb);
-        runStartState = new PlayerRunStartState(this, stateMachine, animator, rb);
-        runStopState =  new  PlayerRunStopState(this, stateMachine, animator, rb);
-        riseState =     new  PlayerRiseState(this, stateMachine, animator, rb);
-        peakState =     new  PlayerPeakState(this, stateMachine, animator, rb);
-        fallState =     new  PlayerFallState(this, stateMachine, animator, rb);
+        idleState.Setup(this, stateMachine, animator, rb);
+        runState.Setup(this, stateMachine, animator, rb);
+        runStartState.Setup(this, stateMachine, animator, rb);
+        runStopState.Setup(this, stateMachine, animator, rb);
+        riseState.Setup(this, stateMachine, animator, rb);
+        peakState.Setup(this, stateMachine, animator, rb);
+        fallState.Setup(this, stateMachine, animator, rb);
+        turnState.Setup(this, stateMachine, animator, rb);
+        landState.Setup(this, stateMachine, animator, rb);
     }
 
     void Start()
@@ -108,7 +111,8 @@ public class PlayerController : MonoBehaviour
         {
             if (spriteRenderer.flipX == false)
             {
-                //StartState(VariableList.STATE_RUN_TURN);
+
+                if (isRunning()) { stateMachine.ChangeState(turnState); }
                 spriteRenderer.flipX = true;
             }
         }
@@ -116,7 +120,7 @@ public class PlayerController : MonoBehaviour
         {
             if (spriteRenderer.flipX == true)
             {
-                //StartState(VariableList.STATE_RUN_TURN);
+                if (isRunning()) { stateMachine.ChangeState(turnState); }
                 spriteRenderer.flipX = false;
             }
         }
@@ -127,6 +131,18 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded()
     {
         return (Physics2D.OverlapAreaAll(groundCheck.bounds.min, groundCheck.bounds.max, groundLayer).Length > 0) ? true : false;
+    }
+
+    public bool isRunning()
+    {
+        if(stateMachine.CurrentPlayerState == runState) 
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
 

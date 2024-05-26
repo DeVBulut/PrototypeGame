@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerState
+public class PlayerState : MonoBehaviour
 {
     protected PlayerController playerController;
     protected PlayerStateMachine playerStateMachine;
@@ -19,6 +19,14 @@ public class PlayerState
     {
         this.playerController = playerController;
         this.playerStateMachine = playerStateMachine;
+    }
+
+    public void Setup(PlayerController playerController, PlayerStateMachine playerStateMachine, Animator animator, Rigidbody2D rigidbody)
+    {
+        this.playerController = playerController;
+        this.playerStateMachine = playerStateMachine;
+        this.animator = animator;
+        this.rb = rigidbody;
     }
 
     public virtual void EnterState()

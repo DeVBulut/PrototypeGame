@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerRunState : PlayerState
 {
+    float tempInput;
 
     public PlayerRunState(PlayerController playerController, PlayerStateMachine playerStateMachine, Animator animator, Rigidbody2D rb) : base(playerController, playerStateMachine, animator, rb)
     {
@@ -16,10 +17,16 @@ public class PlayerRunState : PlayerState
     public override void FrameUpdate()
     {
         float InputAxis = Input.GetAxisRaw("Horizontal");
-        if(InputAxis == 0)
+        // if(InputAxis == tempInput && InputAxis != 0)
+        // {
+        //     playerStateMachine.ChangeState(playerController.turnState);
+        // }
+         if(InputAxis == 0 && Mathf.Abs(rb.velocity.x) < 1f)
         {
             playerStateMachine.ChangeState(playerController.runStopState);
         }
+
+        tempInput = -InputAxis;
     }
 
     public override void EnterState()

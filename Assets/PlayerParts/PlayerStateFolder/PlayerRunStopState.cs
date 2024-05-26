@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Dynamic;
 using UnityEngine;
 
 public class PlayerRunStopState : PlayerState
@@ -15,16 +17,18 @@ public class PlayerRunStopState : PlayerState
     public override void FrameUpdate()
     {
         float InputAxis = Input.GetAxisRaw("Horizontal");
+
         if(InputAxis == 0 && Mathf.Abs(rb.velocity.x) < 1f && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
         {
             playerStateMachine.ChangeState(playerController.idleState);
         }
+
     }
 
     public override void EnterState()
     {
-        animator.Play(Anim.Run_Stop);
-        Debug.Log(this.ToString());
+        animator.Play(Anim.Run_Stop); 
+        Debug.Log(this.ToString());    
     }
 
     public override void ExitState(PlayerState newState)
