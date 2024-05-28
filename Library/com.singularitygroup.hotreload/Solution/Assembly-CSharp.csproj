@@ -54,6 +54,7 @@
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerFallState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRiseState.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRollState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerPeakState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\InputSystem_Actions.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerState.cs" />

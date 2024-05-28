@@ -11,10 +11,11 @@ using UnityEngine.UIElements;
 public class PlayerController : MonoBehaviour
 {
     //private bool alive = true;
-    [SerializeField] float runSpeed = 10f;
-    [SerializeField] float airSpeed = 7f;
+    [SerializeField] float runSpeed = 6f;
+    [SerializeField] float airSpeed = 4f;
     private float InputAxis;
     private bool smoothingSwitch;
+    public bool canMove;
     public LayerMask groundLayer;
     private Rigidbody2D rb;
     private Animator animator;
@@ -36,6 +37,7 @@ public class PlayerController : MonoBehaviour
     public PlayerFallState fallState;
     public PlayerTurnState turnState;
     public PlayerLandState landState;
+    public PlayerRollState rollState;
 
     #endregion
 
@@ -55,10 +57,12 @@ public class PlayerController : MonoBehaviour
         fallState.Setup(this, stateMachine, animator, rb);
         turnState.Setup(this, stateMachine, animator, rb);
         landState.Setup(this, stateMachine, animator, rb);
+        rollState.Setup(this, stateMachine, animator, rb);
     }
 
     void Start()
     {
+        canMove = true;
         stateMachine.Initialize(idleState);
     }
 
@@ -78,21 +82,22 @@ public class PlayerController : MonoBehaviour
     //Movement Code
     public void Move() 
     {
+        if (canMove) {
 
-        //Input Axis
-        InputAxis = Input.GetAxisRaw("Horizontal");
-        
-        //Velocities for Movement
-        float variableSpeed = isGrounded() == true ? runSpeed : airSpeed ;
-        float variableSmoothing = VariableList.movementSmoothing + (InputAxis != 0 && smoothingSwitch == false && isGrounded() ? VariableList.movementSmoothing : 0f);
+            //Input Axis
+            InputAxis = Input.GetAxisRaw("Horizontal");
 
-        
-        Vector2 targetVelocity = new Vector2(InputAxis * variableSpeed, rb.velocity.y);
-        
-        //zero variable
-        Vector3 zeroVector = Vector2.zero;  
-        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref zeroVector, isGrounded() ? variableSmoothing : variableSmoothing + 0.1f);
+            //Velocities for Movement
+            float variableSpeed = isGrounded() == true ? runSpeed : airSpeed;
+            float variableSmoothing = VariableList.movementSmoothing + (InputAxis != 0 && smoothingSwitch == false && isGrounded() ? VariableList.movementSmoothing : 0f);
 
+
+            Vector2 targetVelocity = new Vector2(InputAxis * variableSpeed, rb.velocity.y);
+
+            //zero variable
+            Vector3 zeroVector = Vector2.zero;
+            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref zeroVector, isGrounded() ? variableSmoothing : variableSmoothing + 0.1f);
+        }
     }
 
     public void Jump(InputAction.CallbackContext ctx)
@@ -102,6 +107,14 @@ public class PlayerController : MonoBehaviour
             //add force in positive upwards direction
             rb.AddForce(Vector2.up * VariableList.jumpPower);
             stateMachine.ChangeState(riseState);
+        }
+    }
+
+    public void Roll(InputAction.CallbackContext ctx)
+    {
+        if(ctx.performed && isGrounded())
+        { 
+            stateMachine.ChangeState(rollState);
         }
     }
 

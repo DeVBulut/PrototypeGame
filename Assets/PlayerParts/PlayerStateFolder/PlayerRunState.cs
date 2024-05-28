@@ -17,11 +17,8 @@ public class PlayerRunState : PlayerState
     public override void FrameUpdate()
     {
         float InputAxis = Input.GetAxisRaw("Horizontal");
-        // if(InputAxis == tempInput && InputAxis != 0)
-        // {
-        //     playerStateMachine.ChangeState(playerController.turnState);
-        // }
-         if(InputAxis == 0 && Mathf.Abs(rb.velocity.x) < 1f)
+        
+        if(InputAxis == 0 && Mathf.Abs(rb.velocity.x) < 1f)
         {
             playerStateMachine.ChangeState(playerController.runStopState);
         }

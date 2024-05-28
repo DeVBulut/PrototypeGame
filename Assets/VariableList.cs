@@ -10,5 +10,6 @@ public static class VariableList
     public const float jumpPower = 250f;
     public const float maxCoyote = .2f;
     public const float peakThreshold = 1.5f;
+    public const float dashPower = 0f;
 
 }

@@ -11,4 +11,5 @@ public static class Anim
     public const string  Fall = "Fall";
     public const string Turn = "Run_Turn";
     public const string Land = "Land";
+    public const string Roll = "Roll";
 }

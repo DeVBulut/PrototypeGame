@@ -451,6 +451,7 @@
 "Assets/PlayerParts/PlayerStateFolder/PlayerLandState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerPeakState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerRiseState.cs"
+"Assets/PlayerParts/PlayerStateFolder/PlayerRollState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerRunStartState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerRunState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerRunStopState.cs"

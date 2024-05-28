@@ -59,7 +59,7 @@
     <UnityVersion>6000.0.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Han\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Han\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -73,6 +73,7 @@
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerFallState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerController.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRiseState.cs" />
+    <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRollState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerPeakState.cs" />
     <Compile Include="Assets\InputSystem_Actions.cs" />
     <Compile Include="Assets\PlayerParts\PlayerState.cs" />
