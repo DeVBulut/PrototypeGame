@@ -10,7 +10,7 @@ public class PlayerIdleState : PlayerState
 
     public override void PhysicsUpdate()
     {
-
+        Debug.Log(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Idle));
     }
 
     public override void FrameUpdate()

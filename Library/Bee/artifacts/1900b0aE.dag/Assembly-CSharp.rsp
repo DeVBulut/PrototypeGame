@@ -446,6 +446,7 @@
 "Assets/InputSystem_Actions.cs"
 "Assets/PlayerParts/PlayerController.cs"
 "Assets/PlayerParts/PlayerState.cs"
+"Assets/PlayerParts/PlayerStateFolder/PlayerDashState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerFallState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerIdleState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerLandState.cs"

@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
     public PlayerFallState fallState;
     public PlayerTurnState turnState;
     public PlayerLandState landState;
-    public PlayerRollState rollState;
+    public PlayerDashState dashState;
 
     #endregion
 
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
         fallState.Setup(this, stateMachine, animator, rb);
         turnState.Setup(this, stateMachine, animator, rb);
         landState.Setup(this, stateMachine, animator, rb);
-        rollState.Setup(this, stateMachine, animator, rb);
+        dashState.Setup(this, stateMachine, animator, rb);
     }
 
     void Start()
@@ -112,9 +112,9 @@ public class PlayerController : MonoBehaviour
 
     public void Roll(InputAction.CallbackContext ctx)
     {
-        if(ctx.performed && isGrounded())
+        if(ctx.performed)
         { 
-            stateMachine.ChangeState(rollState);
+            stateMachine.ChangeState(dashState);
         }
     }
 

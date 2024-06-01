@@ -10,7 +10,7 @@ public class PlayerRollState : PlayerState
 
     public override void PhysicsUpdate()
     {
-        rb.velocity = new Vector2( axis * 3, rb.velocity.y);
+        rb.velocity = new Vector2( axis * 4, rb.velocity.y);
     }
 
     public override void FrameUpdate()
