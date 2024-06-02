@@ -15,14 +15,21 @@ public class PlayerRollState : PlayerState
 
     public override void FrameUpdate()
     {
-        if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.90)
+        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Roll) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99 && this.playerController.isGrounded())
         {
-            playerStateMachine.ChangeState(playerController.idleState);
+            rb.velocity = new Vector2( axis * 3, 0);
+            playerStateMachine.ChangeState(playerController.runStopState);
+        }
+        else if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Roll) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99 && !this.playerController.isGrounded())
+        {
+            rb.velocity = new Vector2( axis * 3, 0);
+            playerStateMachine.ChangeState(playerController.fallState);
         }
     }
 
     public override void EnterState()
     {
+        //playerController.canMove = false;
         if(sp.flipX == true)
         {
             axis = -1;
@@ -31,7 +38,6 @@ public class PlayerRollState : PlayerState
         {
             axis = 1;
         }
-        playerController.canMove = false;
         rb.velocity = Vector2.zero;
         animator.Play(Anim.Roll);
         Debug.Log(this.ToString());
@@ -39,7 +45,5 @@ public class PlayerRollState : PlayerState
 
     public override void ExitState(PlayerState newState)
     {
-        rb.velocity = Vector2.zero;
-        playerController.canMove = true;
     }
 }

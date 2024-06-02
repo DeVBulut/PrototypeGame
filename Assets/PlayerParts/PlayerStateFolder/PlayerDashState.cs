@@ -10,15 +10,20 @@ public class PlayerDashState : PlayerState
 
     public override void PhysicsUpdate()
     {
-        rb.velocity = new Vector2( axis * 5, 0);
+        rb.velocity = new Vector2( axis * 4, 0);
     }
 
     public override void FrameUpdate()
     {
-        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
+        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9 && this.playerController.isGrounded())
         {
-            Debug.Log("Switch");
-            playerStateMachine.ChangeState(playerController.idleState);
+            rb.velocity = new Vector2( axis * 1, 0);
+            playerStateMachine.ChangeState(playerController.runStopState);
+        }
+        else if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9 && !this.playerController.isGrounded())
+        {
+            rb.velocity = new Vector2( axis * 1, 0);
+            playerStateMachine.ChangeState(playerController.peakState);
         }
     }
 

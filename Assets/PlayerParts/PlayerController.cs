@@ -11,7 +11,7 @@ using UnityEngine.UIElements;
 public class PlayerController : MonoBehaviour
 {
     //private bool alive = true;
-    [SerializeField] float runSpeed = 6f;
+    [SerializeField] float runSpeed = 5f;
     [SerializeField] float airSpeed = 4f;
     private float InputAxis;
     private bool smoothingSwitch;
@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
     public PlayerFallState fallState;
     public PlayerTurnState turnState;
     public PlayerLandState landState;
+    public PlayerRollState rollState;
     public PlayerDashState dashState;
 
     #endregion
@@ -57,6 +58,7 @@ public class PlayerController : MonoBehaviour
         fallState.Setup(this, stateMachine, animator, rb);
         turnState.Setup(this, stateMachine, animator, rb);
         landState.Setup(this, stateMachine, animator, rb);
+        rollState.Setup(this, stateMachine, animator, rb);
         dashState.Setup(this, stateMachine, animator, rb);
     }
 
@@ -110,11 +112,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Roll(InputAction.CallbackContext ctx)
+    public void Dodge(InputAction.CallbackContext ctx)
     {
-        if(ctx.performed)
+        if(ctx.performed && canMove)
         { 
-            stateMachine.ChangeState(dashState);
+            if(isGrounded())
+            {
+                stateMachine.ChangeState(rollState);
+            }else
+            {
+                stateMachine.ChangeState(dashState);
+            }
         }
     }
 

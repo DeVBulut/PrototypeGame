@@ -10,7 +10,7 @@ public class PlayerIdleState : PlayerState
 
     public override void PhysicsUpdate()
     {
-        Debug.Log(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Idle));
+
     }
 
     public override void FrameUpdate()
@@ -19,6 +19,10 @@ public class PlayerIdleState : PlayerState
         if(InputAxis != 0 && Mathf.Abs(rb.velocity.x) < 1.5f)
         {
             playerStateMachine.ChangeState(playerController.runStartState);
+        }
+        else if(!playerController.isGrounded())
+        {
+            playerStateMachine.ChangeState(playerController.fallState);
         }
     }
 
