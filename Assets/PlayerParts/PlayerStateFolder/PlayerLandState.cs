@@ -10,12 +10,13 @@ public class PlayerLandState : PlayerState
     public override void EnterState()
     {
         animator.Play(Anim.Land);
+        Debug.Log(this.ToString());
     }
 
     public override void FrameUpdate()
     {
         float InputAxis = Input.GetAxisRaw("Horizontal");
-        if(InputAxis == 0 && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
+        if(InputAxis == 0 && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9)
         {
             playerStateMachine.ChangeState(playerController.idleState);
         }

@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI outputField0;
     public TextMeshProUGUI outputField1;
     public TextMeshProUGUI outputField2;
+    public float tempfield;
     private BoxCollider2D groundCheck;
 
     #region State Machine Variables 
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
     public PlayerLandState landState;
     public PlayerRollState rollState;
     public PlayerDashState dashState;
+    public PlayerDashExitState dashExitState;
 
     #endregion
 
@@ -60,6 +62,7 @@ public class PlayerController : MonoBehaviour
         landState.Setup(this, stateMachine, animator, rb);
         rollState.Setup(this, stateMachine, animator, rb);
         dashState.Setup(this, stateMachine, animator, rb);
+        dashExitState.Setup(this, stateMachine, animator, rb);
     }
 
     void Start()
@@ -73,6 +76,7 @@ public class PlayerController : MonoBehaviour
         stateMachine.CurrentPlayerState.FrameUpdate();
         Flip();
         ControlDeveloperPanel();
+        tempfield = Mathf.Abs(rb.velocity.x);
     }
 
     void FixedUpdate()
@@ -118,7 +122,7 @@ public class PlayerController : MonoBehaviour
         { 
             if(isGrounded())
             {
-                stateMachine.ChangeState(rollState);
+                stateMachine.ChangeState(dashState);
             }else
             {
                 stateMachine.ChangeState(dashState);
@@ -156,7 +160,7 @@ public class PlayerController : MonoBehaviour
 
     public bool isRunning()
     {
-        if(stateMachine.CurrentPlayerState == runState) 
+        if(stateMachine.CurrentPlayerState == runState && Mathf.Abs(rb.velocity.x) > 2) 
         {
             return true;
         }

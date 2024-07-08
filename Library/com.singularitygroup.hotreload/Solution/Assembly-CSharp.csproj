@@ -60,7 +60,8 @@
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\InputSystem_Actions.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerIdleState.cs" />
-     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\Anim.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRunStartState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerTurnState.cs" />
      <Reference Include="UnityEngine">

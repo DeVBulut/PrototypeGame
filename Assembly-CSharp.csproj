@@ -79,7 +79,8 @@
     <Compile Include="Assets\InputSystem_Actions.cs" />
     <Compile Include="Assets\PlayerParts\PlayerState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerIdleState.cs" />
-    <Compile Include="Assets\Anim.cs" />
+    <Compile Include="Assets\PlayerParts\Anim.cs" />
+    <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRunStartState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerTurnState.cs" />
   </ItemGroup>

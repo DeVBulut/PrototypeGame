@@ -10,25 +10,22 @@ public class PlayerDashState : PlayerState
 
     public override void PhysicsUpdate()
     {
-        rb.velocity = new Vector2( axis * 4, 0);
+        rb.AddForce(new Vector2(40f * axis, 0));
     }
 
     public override void FrameUpdate()
     {
-        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9 && this.playerController.isGrounded())
+        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash_2) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
         {
-            rb.velocity = new Vector2( axis * 1, 0);
-            playerStateMachine.ChangeState(playerController.runStopState);
-        }
-        else if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9 && !this.playerController.isGrounded())
-        {
-            rb.velocity = new Vector2( axis * 1, 0);
-            playerStateMachine.ChangeState(playerController.peakState);
+            //rb.velocityX = rb.velocityX -2f;
+            playerStateMachine.ChangeState(playerController.dashExitState);
         }
     }
 
     public override void EnterState()
     {
+        playerController.canMove = false;
+        rb.constraints = RigidbodyConstraints2D.FreezePositionY; 
         //playerController.canMove = false;
         if(sp.flipX == true)
         {
@@ -39,11 +36,14 @@ public class PlayerDashState : PlayerState
             axis = 1;
         }
         rb.velocity = Vector2.zero;
-        animator.Play(Anim.Dash);
+        animator.Play(Anim.Dash_2);
         Debug.Log(this.ToString());
     }
 
     public override void ExitState(PlayerState newState)
     {
+        //playerController.canMove = true;
+        // rb.constraints = RigidbodyConstraints2D.None;
+        // rb.constraints = RigidbodyConstraints2D.FreezeRotation; 
     }
 }

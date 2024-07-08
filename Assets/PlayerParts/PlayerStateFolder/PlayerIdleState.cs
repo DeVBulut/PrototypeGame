@@ -16,7 +16,7 @@ public class PlayerIdleState : PlayerState
     public override void FrameUpdate()
     {
         float InputAxis = Input.GetAxisRaw("Horizontal");
-        if(InputAxis != 0 && Mathf.Abs(rb.velocity.x) < 1.5f)
+        if(InputAxis != 0 && Mathf.Abs(rb.velocity.x) < 4f)
         {
             playerStateMachine.ChangeState(playerController.runStartState);
         }

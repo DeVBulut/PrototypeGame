@@ -16,11 +16,11 @@ public class PlayerFallState : PlayerState
     public override void FrameUpdate()
     {
         float InputAxis = Input.GetAxisRaw("Horizontal");
-        if(InputAxis == 0 && playerController.isGrounded() && Mathf.Abs(rb.velocity.x) < 1f )
+        if(playerController.isGrounded() && Mathf.Abs(rb.velocity.x) < 2f )
         {
             playerStateMachine.ChangeState(playerController.landState);
         }
-        else if( InputAxis != 0 && playerController.isGrounded() &&  Mathf.Abs(rb.velocity.x) > 1f)
+        else if(playerController.isGrounded() &&  Mathf.Abs(rb.velocity.x) > 2f)
         {
             playerStateMachine.ChangeState(playerController.runState);
         }
