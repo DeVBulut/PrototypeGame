@@ -53,6 +53,7 @@
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Editor\CLI\OsxCliController.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Editor\CLI\CliUtils.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Editor\Helpers\AssemblyOmission.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Editor\InspectorFreezeFix.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Editor\Window\HotReloadWindow.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Editor\HotReloadState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Editor\Installation\ServerDownloader.cs" />

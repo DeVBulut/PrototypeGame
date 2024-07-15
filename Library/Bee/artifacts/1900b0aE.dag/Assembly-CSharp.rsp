@@ -444,6 +444,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/InputSystem_Actions.cs"
 "Assets/PlayerParts/Anim.cs"
+"Assets/PlayerParts/PlayerAfterImagePool.cs"
+"Assets/PlayerParts/PlayerAfterImageSprite.cs"
 "Assets/PlayerParts/PlayerController.cs"
 "Assets/PlayerParts/PlayerState.cs"
 "Assets/PlayerParts/PlayerStateFolder/PlayerDashExitState.cs"

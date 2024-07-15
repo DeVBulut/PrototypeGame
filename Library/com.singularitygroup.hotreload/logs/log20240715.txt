@@ -1,0 +1,619 @@
+2024-07-15 00:10:55.199 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:10:55.316 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerAfterImagePool.cs:5
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs:5)
+2024-07-15 00:10:57.024 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:10:57.024 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:11:02.664 -06:00 [INF] Compiling...
+2024-07-15 00:11:03.319 -06:00 [INF] Finished compiling in 0s
+2024-07-15 00:11:18.345 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:11:18.577 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(10,1): error CS1519: Invalid token '}' in class, record, struct, or interface member declaration
+2024-07-15 00:11:33.702 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:11:33.820 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerAfterImagePool.cs:9
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs:9)
+2024-07-15 00:11:35.655 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:11:35.655 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:12:21.403 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:12:21.644 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(11,19): error CS0246: The type or namespace name 'PlayerAfterImagePool' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-15 00:12:34.888 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:12:35.068 -06:00 [WRN] errors: Renamed ClassDeclaration: Renaming class requires recompiling in unity. in PlayerAfterImagePool.cs:5
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs:5)
+Renamed ClassDeclaration: Renaming class requires recompiling in unity. in PlayerAfterImagePool.cs:5
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs:5)
+2024-07-15 00:12:36.257 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:12:36.257 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:12:36.324 -06:00 [WRN] errors: Renamed ClassDeclaration: Renaming class requires recompiling in unity. in PlayerAfterImagePool.cs:5
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs:5)
+Renamed ClassDeclaration: Renaming class requires recompiling in unity. in PlayerAfterImagePool.cs:5
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs:5)
+2024-07-15 00:12:41.177 -06:00 [INF] Compiling...
+2024-07-15 00:12:42.023 -06:00 [INF] Finished compiling in 0s
+2024-07-15 00:12:54.055 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:13.342 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:13.584 -06:00 [INF] Hot Reloading Awake in PlayerAfterImagePool.cs  - Assembly-CSharp (18.5ms)
+2024-07-15 00:13:22.807 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:23.082 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(19,22): error CS0103: The name 'length' does not exist in the current context
+2024-07-15 00:13:35.528 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:35.590 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (27.36ms)
+2024-07-15 00:13:38.432 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:38.580 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (15.39ms)
+2024-07-15 00:13:53.499 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:53.607 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(21,82): error CS1525: Invalid expression term ')'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(21,83): error CS1002: ; expected
+2024-07-15 00:13:56.865 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:57.084 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(21,62): error CS1525: Invalid expression term ')'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(21,63): error CS1002: ; expected
+2024-07-15 00:13:57.227 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:13:57.319 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(21,62): error CS1002: ; expected
+2024-07-15 00:13:58.735 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:14.641 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:14.847 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (25.85ms)
+2024-07-15 00:14:19.760 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:19.821 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(23,13): error CS0103: The name 'AddToPool' does not exist in the current context
+2024-07-15 00:14:21.682 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:21.822 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(23,13): error CS0103: The name 'AddToPool' does not exist in the current context
+2024-07-15 00:14:31.191 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:31.361 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(23,13): error CS1501: No overload for method 'AddToPool' takes 1 arguments
+2024-07-15 00:14:43.662 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:43.833 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(29,17): error CS1002: ; expected
+2024-07-15 00:14:49.293 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:49.375 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (59.44ms)
+2024-07-15 00:14:53.432 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:14:53.584 -06:00 [INF] Hot Reloading AddToPool in PlayerAfterImagePool.cs  - Assembly-CSharp (19.13ms)
+2024-07-15 00:15:11.041 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:15:11.076 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(33,23): error CS0161: 'PlayerAfterImagePool.GetFromPool()': not all code paths return a value
+2024-07-15 00:15:21.279 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:15:21.335 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(35,41): error CS1525: Invalid expression term '}'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(35,41): error CS1002: ; expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(35,12): error CS0193: The * or -> operator must be applied to a pointer
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(33,23): error CS0161: 'PlayerAfterImagePool.GetFromPool()': not all code paths return a value
+2024-07-15 00:15:24.561 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:15:24.823 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(33,23): error CS0161: 'PlayerAfterImagePool.GetFromPool()': not all code paths return a value
+2024-07-15 00:15:48.948 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:15:49.071 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(33,23): error CS0161: 'PlayerAfterImagePool.GetFromPool()': not all code paths return a value
+2024-07-15 00:16:07.278 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:16:07.323 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(33,23): error CS0161: 'PlayerAfterImagePool.GetFromPool()': not all code paths return a value
+2024-07-15 00:16:24.935 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:16:25.078 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(41,29): error CS1002: ; expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(41,18): error CS7036: There is no argument given that corresponds to the required parameter 'value' of 'GameObject.SetActive(bool)'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(33,23): error CS0161: 'PlayerAfterImagePool.GetFromPool()': not all code paths return a value
+2024-07-15 00:16:34.311 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:16:34.577 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImagePool.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(33,23): error CS0161: 'PlayerAfterImagePool.GetFromPool()': not all code paths return a value
+2024-07-15 00:16:42.446 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:16:53.581 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:16:53.830 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs(16,19): error CS1002: ; expected
+2024-07-15 00:16:54.078 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:16:54.341 -06:00 [INF] Hot Reloading Awake in PlayerAfterImagePool.cs  - Assembly-CSharp (21.61ms)
+2024-07-15 00:17:11.384 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:17:11.385 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs.meta
+2024-07-15 00:17:20.159 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab.meta
+2024-07-15 00:17:20.159 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:17:35.077 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:17:43.532 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:18:53.444 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:19:03.287 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:19:39.064 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:19:43.193 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:20:36.991 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:20:37.084 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImageSprite.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(38,43): error CS0122: 'PlayerAfterImagePool.AddToPool(GameObject)' is inaccessible due to its protection level
+2024-07-15 00:20:41.484 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:20:41.574 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerAfterImageSprite.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(38,43): error CS0122: 'PlayerAfterImagePool.AddToPool(GameObject)' is inaccessible due to its protection level
+2024-07-15 00:20:58.920 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:20:59.111 -06:00 [INF] Hot Reloading AddToPool, Update in PlayerAfterImagePool.cs  - Assembly-CSharp (43.42ms)
+2024-07-15 00:21:04.731 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:26:01.142 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:26:01.366 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (42.34ms)
+2024-07-15 00:27:07.535 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:27:07.581 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(45,22): error CS1001: Identifier expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(45,22): error CS1002: ; expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(45,9): error CS0246: The type or namespace name 'lastImageXPos' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-15 00:27:33.595 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:27:33.826 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(45,25): error CS0029: Cannot implicitly convert type 'UnityEngine.Vector3' to 'float'
+2024-07-15 00:28:08.793 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:28:08.827 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(45,25): error CS0305: Using the generic method group 'GetComponent' requires 1 type arguments
+2024-07-15 00:28:12.551 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:28:12.578 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(45,25): error CS0029: Cannot implicitly convert type 'UnityEngine.Transform' to 'float'
+2024-07-15 00:28:12.974 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:28:13.101 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(45,25): error CS0029: Cannot implicitly convert type 'UnityEngine.Transform' to 'float'
+2024-07-15 00:28:25.984 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:28:27.310 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:28:27.310 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:28:27.310 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:28:27.310 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:28:33.931 -06:00 [INF] Compiling...
+2024-07-15 00:28:34.569 -06:00 [INF] Finished compiling in 0s
+2024-07-15 00:28:51.448 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:28:51.574 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(17,12): error CS1525: Invalid expression term ')'
+2024-07-15 00:28:52.185 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:28:52.321 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(17,12): error CS1525: Invalid expression term ')'
+2024-07-15 00:29:05.889 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:29:06.084 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(23,12): error CS1525: Invalid expression term ')'
+2024-07-15 00:29:35.435 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:29:35.579 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(24,13): error CS0029: Cannot implicitly convert type 'float' to 'bool'
+2024-07-15 00:31:12.127 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:31:12.384 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (65.05ms)
+2024-07-15 00:31:53.181 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:31:53.331 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (16.89ms)
+2024-07-15 00:32:03.392 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:32:03.593 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (21.89ms)
+2024-07-15 00:32:25.998 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:32:34.081 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:33:09.663 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:33:59.297 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:34:23.344 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:35:04.064 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:35:04.413 -06:00 [INF] Hot Reloading OnEnable in PlayerAfterImageSprite.cs  - Assembly-CSharp (92.06ms)
+2024-07-15 00:35:11.951 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:35:47.120 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:35:47.399 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (86.58ms)
+2024-07-15 00:35:49.198 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:35:58.445 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:36:30.217 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:36:30.343 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (26.04ms)
+2024-07-15 00:36:32.239 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:36:32.340 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (15.01ms)
+2024-07-15 00:36:38.326 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:37:02.060 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:02.324 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(24,106): error CS0103: The name 'timeBetweenImages' does not exist in the current context
+2024-07-15 00:37:11.725 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:11.830 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerDashState.cs:8
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs:8)
+2024-07-15 00:37:13.334 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:13.334 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:37:13.334 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:37:13.593 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerDashState.cs:8
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs:8)
+2024-07-15 00:37:14.949 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:14.950 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:37:15.061 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerDashState.cs:8
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs:8)
+2024-07-15 00:37:16.085 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:16.328 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerDashState.cs:8
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs:8)
+2024-07-15 00:37:20.047 -06:00 [INF] Compiling...
+2024-07-15 00:37:20.677 -06:00 [INF] Finished compiling in 0s
+2024-07-15 00:37:23.297 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:37:36.341 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:36.626 -06:00 [INF] Hot Reloading .ctor in PlayerDashState.cs  - Assembly-CSharp (60.63ms)
+2024-07-15 00:37:54.295 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:54.322 -06:00 [WRN] errors: Renamed FieldDeclaration: Renaming field requires recompiling in unity. in PlayerDashState.cs:8
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs:8)
+Renamed FieldDeclaration: Renaming field requires recompiling in unity. in PlayerDashState.cs:8
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs:8)
+2024-07-15 00:37:59.477 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:37:59.477 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:37:59.478 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:38:02.270 -06:00 [INF] Compiling...
+2024-07-15 00:38:02.867 -06:00 [INF] Finished compiling in 0s
+2024-07-15 00:38:11.355 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:38:11.625 -06:00 [INF] Hot Reloading .ctor in PlayerDashState.cs  - Assembly-CSharp (62.45ms)
+2024-07-15 00:38:30.499 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:38:30.641 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (72.91ms)
+2024-07-15 00:38:43.079 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:38:43.336 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (16.05ms)
+2024-07-15 00:38:53.539 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:38:53.584 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (27.84ms)
+2024-07-15 00:38:56.438 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:38:56.596 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (24.28ms)
+2024-07-15 00:38:58.531 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:38:58.589 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (19.44ms)
+2024-07-15 00:39:00.832 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:39:09.929 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:39:10.078 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (15.46ms)
+2024-07-15 00:39:14.807 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:39:17.149 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:39:29.265 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:39:29.341 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (21.18ms)
+2024-07-15 00:39:44.630 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:39:44.843 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (14.93ms)
+2024-07-15 00:39:45.490 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:40:00.346 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:40:00.593 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (19.64ms)
+2024-07-15 00:40:54.659 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:41:02.901 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:41:06.072 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:41:06.341 -06:00 [INF] Hot Reloading .ctor in PlayerDashState.cs  - Assembly-CSharp (28.15ms)
+2024-07-15 00:41:07.439 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:41:21.090 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:41:21.338 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (20.08ms)
+2024-07-15 00:41:22.782 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:42:00.015 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:42:12.126 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:42:32.849 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:42:32.849 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:42:56.241 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:42:56.325 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (14.26ms)
+2024-07-15 00:42:59.353 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:42:59.353 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 00:42:59.353 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:43:02.441 -06:00 [INF] Compiling...
+2024-07-15 00:43:03.113 -06:00 [INF] Finished compiling in 0s
+2024-07-15 00:43:04.274 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:43:15.197 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:43:18.646 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:43:36.735 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:43:36.735 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:43:41.973 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:43:54.027 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:43:54.027 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:44:09.810 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:44:09.810 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:44:20.574 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:44:20.574 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:44:39.864 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:44:45.639 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:44:45.880 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (60.61ms)
+2024-07-15 00:44:57.345 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:45:01.512 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:45:01.601 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (33.85ms)
+2024-07-15 00:45:02.122 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:45:15.526 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:45:42.780 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:45:42.780 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 00:46:19.183 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:46:19.332 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (16.64ms)
+2024-07-15 00:46:45.512 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:46:45.608 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (42.06ms)
+2024-07-15 00:46:46.455 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:46:50.335 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:46:50.335 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:46:50.335 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:46:50.335 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:46:54.240 -06:00 [INF] Compiling...
+2024-07-15 00:46:54.872 -06:00 [INF] Finished compiling in 0s
+2024-07-15 00:47:14.392 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:47:14.634 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (63.85ms)
+2024-07-15 00:47:16.610 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:48:12.120 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:48:12.321 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(25,15): error CS1501: No overload for method 'Log' takes 0 arguments
+2024-07-15 00:48:14.921 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:48:15.103 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (36.78ms)
+2024-07-15 00:48:17.857 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:48:18.093 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (27.28ms)
+2024-07-15 00:48:22.209 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:48:55.304 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:48:55.337 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (15.95ms)
+2024-07-15 00:56:17.695 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:56:17.835 -06:00 [INF] Hot Reloading PhysicsUpdate, FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (23.87ms)
+2024-07-15 00:56:19.732 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 00:56:48.193 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:56:48.332 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(9,34): error CS1002: ; expected
+2024-07-15 00:56:48.755 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:56:51.536 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 00:56:51.536 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 00:56:51.536 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 00:56:56.118 -06:00 [INF] Compiling...
+2024-07-15 00:56:56.771 -06:00 [INF] Finished compiling in 0s
+2024-07-15 01:03:34.583 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:03:40.265 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:03:47.887 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:03:48.157 -06:00 [INF] Hot Reloading PhysicsUpdate, FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (91.75ms)
+2024-07-15 01:23:08.844 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:23:09.077 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(25,15): error CS1501: No overload for method 'Log' takes 0 arguments
+2024-07-15 01:23:09.892 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:23:10.085 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (15.97ms)
+2024-07-15 01:23:45.128 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:23:45.378 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (57.78ms)
+2024-07-15 01:23:46.269 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:23:50.633 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:24:07.335 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:24:07.579 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (17.57ms)
+2024-07-15 01:24:10.153 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:24:22.514 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:24:22.595 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (27.17ms)
+2024-07-15 01:24:30.614 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:24:30.842 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (24.04ms)
+2024-07-15 01:24:34.018 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:24:34.088 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (17.96ms)
+2024-07-15 01:24:49.975 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:24:50.095 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (34.93ms)
+2024-07-15 01:25:16.267 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:25:23.684 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 01:25:23.835 -06:00 [INF] Hot Reloading GrowPool in PlayerAfterImagePool.cs  - Assembly-CSharp (16.2ms)
+2024-07-15 01:26:06.201 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:26:19.727 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:26:24.827 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:26:26.819 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:26:27.085 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:26:42.640 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:26:43.664 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:26:43.779 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:26:56.326 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:26:58.672 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:26:58.868 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:27:23.639 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:27:23.850 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (34.72ms)
+2024-07-15 01:28:14.398 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-15 01:28:14.725 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-15 01:28:30.469 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-15 01:28:38.035 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:28:38.081 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(43,46): error CS1002: ; expected
+2024-07-15 01:28:49.759 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:28:49.849 -06:00 [INF] Hot Reloading Update in PlayerAfterImageSprite.cs  - Assembly-CSharp (31.49ms)
+2024-07-15 01:29:04.140 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:04.328 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(43,12): error CS1525: Invalid expression term ')'
+2024-07-15 01:29:05.047 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:05.079 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(43,12): error CS1525: Invalid expression term ')'
+2024-07-15 01:29:09.011 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:09.074 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(43,13): error CS1525: Invalid expression term ')'
+2024-07-15 01:29:09.710 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:09.836 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(43,13): error CS1525: Invalid expression term ')'
+2024-07-15 01:29:17.992 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:18.087 -06:00 [INF] Hot Reloading Update in PlayerAfterImageSprite.cs  - Assembly-CSharp (24.85ms)
+2024-07-15 01:29:34.945 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:35.096 -06:00 [INF] Hot Reloading Update in PlayerAfterImageSprite.cs  - Assembly-CSharp (19.94ms)
+2024-07-15 01:29:46.545 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:29:54.337 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:54.574 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(45,41): error CS1002: ; expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(45,36): error CS0029: Cannot implicitly convert type 'string' to 'bool'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(45,40): error CS0103: The name 'l' does not exist in the current context
+2024-07-15 01:29:56.123 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:56.334 -06:00 [INF] Hot Reloading Update in PlayerAfterImageSprite.cs  - Assembly-CSharp (15.89ms)
+2024-07-15 01:29:59.564 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:29:59.846 -06:00 [INF] Hot Reloading Update in PlayerAfterImageSprite.cs  - Assembly-CSharp (27.31ms)
+2024-07-15 01:30:04.480 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:30:04.582 -06:00 [INF] Hot Reloading Update in PlayerAfterImageSprite.cs  - Assembly-CSharp (15.48ms)
+2024-07-15 01:30:04.858 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:30:14.922 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:30:29.842 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:30:32.996 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:30:33.880 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:30:34.298 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:30:34.487 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:30:48.723 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:30:49.419 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:31:01.171 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:31:13.325 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:31:13.746 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-15 01:31:19.246 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:31:41.207 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:31:41.349 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (25.18ms)
+2024-07-15 01:31:42.427 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:31:42.606 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (32.32ms)
+2024-07-15 01:34:12.408 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:34:26.314 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:34:26.582 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (18.41ms)
+2024-07-15 01:36:50.849 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:38:13.805 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:38:13.859 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (32.03ms)
+2024-07-15 01:38:17.750 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:38:17.845 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (26.61ms)
+2024-07-15 01:38:28.075 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:38:28.343 -06:00 [INF] Hot Reloading ExitState in PlayerDashState.cs  - Assembly-CSharp (26.75ms)
+2024-07-15 01:38:31.998 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:38:32.088 -06:00 [INF] Hot Reloading ExitState in PlayerDashState.cs  - Assembly-CSharp (21.81ms)
+2024-07-15 01:38:34.265 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:38:58.868 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:38:59.078 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (16.51ms)
+2024-07-15 01:39:01.148 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:41:34.259 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:41:55.916 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:43:48.260 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\VariableList.cs
+2024-07-15 01:43:48.317 -06:00 [WRN] errors: Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in VariableList.cs:9
+(at C:\Unity Projects\PrototypeGame\Assets\VariableList.cs:9)
+2024-07-15 01:43:50.566 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:43:50.566 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:43:50.566 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-15 01:43:50.566 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-15 01:43:50.566 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImagePool.cs
+2024-07-15 01:43:50.566 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\VariableList.cs
+2024-07-15 01:43:50.566 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 01:43:57.276 -06:00 [INF] Compiling...
+2024-07-15 01:43:57.905 -06:00 [INF] Finished compiling in 0s
+2024-07-15 01:44:04.526 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\VariableList.cs
+2024-07-15 01:44:04.567 -06:00 [WRN] errors: Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in VariableList.cs:9
+(at C:\Unity Projects\PrototypeGame\Assets\VariableList.cs:9)
+2024-07-15 01:44:08.044 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\VariableList.cs
+2024-07-15 01:44:08.044 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 01:44:12.325 -06:00 [INF] Compiling...
+2024-07-15 01:44:12.964 -06:00 [INF] Finished compiling in 0s
+2024-07-15 01:44:19.759 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\VariableList.cs
+2024-07-15 01:44:19.814 -06:00 [WRN] errors: Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in VariableList.cs:9
+(at C:\Unity Projects\PrototypeGame\Assets\VariableList.cs:9)
+2024-07-15 01:44:22.151 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\VariableList.cs
+2024-07-15 01:44:22.151 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 01:44:27.233 -06:00 [INF] Compiling...
+2024-07-15 01:44:27.887 -06:00 [INF] Finished compiling in 0s
+2024-07-15 01:44:44.637 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-15 01:44:44.889 -06:00 [INF] Hot Reloading Move in PlayerController.cs  - Assembly-CSharp (74.31ms)
+2024-07-15 01:45:11.302 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-15 01:45:11.363 -06:00 [INF] Hot Reloading Move in PlayerController.cs  - Assembly-CSharp (39.97ms)
+2024-07-15 01:45:12.557 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:46:39.821 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:49:17.035 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:49:17.102 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (28.89ms)
+2024-07-15 01:49:31.576 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:49:31.834 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (17.48ms)
+2024-07-15 01:49:49.881 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:49:50.085 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(49,17): error CS1525: Invalid expression term ')'
+2024-07-15 01:49:52.993 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:49:53.103 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(49,17): error CS1525: Invalid expression term ')'
+2024-07-15 01:49:59.261 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:49:59.327 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(49,52): error CS1026: ) expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(49,53): error CS1513: } expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(49,18): error CS0029: Cannot implicitly convert type 'UnityEngine.Vector2' to 'bool'
+2024-07-15 01:49:59.700 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:49:59.820 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(49,18): error CS0029: Cannot implicitly convert type 'UnityEngine.Vector2' to 'bool'
+2024-07-15 01:50:02.695 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:50:02.832 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(49,33): error CS1955: Non-invocable member 'Vector2' cannot be used like a method.
+2024-07-15 01:50:04.915 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:50:05.087 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (25.76ms)
+2024-07-15 01:53:13.485 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:53:13.585 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (18.59ms)
+2024-07-15 01:53:13.891 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:53:14.097 -06:00 [INF] Hot Reloading EnterState in PlayerDashState.cs  - Assembly-CSharp (29.85ms)
+2024-07-15 01:53:15.888 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:55:02.391 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:02.578 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,12): error CS1525: Invalid expression term ')'
+2024-07-15 01:55:03.279 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:03.325 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,12): error CS1525: Invalid expression term ')'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,13): error CS1525: Invalid expression term ''
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,13): error CS1002: ; expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,13): error CS1056: Unexpected character '\'
+2024-07-15 01:55:05.602 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:05.831 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,12): error CS1525: Invalid expression term ')'
+2024-07-15 01:55:07.746 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:07.827 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,12): error CS1525: Invalid expression term ')'
+2024-07-15 01:55:08.400 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:08.570 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs(75,12): error CS1525: Invalid expression term ')'
+2024-07-15 01:55:17.838 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:18.101 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (36ms)
+2024-07-15 01:55:21.638 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:21.837 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (21.71ms)
+2024-07-15 01:55:25.363 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:25.628 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (56.3ms)
+2024-07-15 01:55:36.001 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:36.092 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (20.83ms)
+2024-07-15 01:55:43.499 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:55:43.600 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (30.78ms)
+2024-07-15 01:56:10.094 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:10.329 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(19,16): error CS1525: Invalid expression term ')'
+2024-07-15 01:56:10.889 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:11.076 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(19,16): error CS1525: Invalid expression term ')'
+2024-07-15 01:56:15.159 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:15.349 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (27.69ms)
+2024-07-15 01:56:20.496 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:20.580 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (14.13ms)
+2024-07-15 01:56:23.215 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:23.338 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (21.51ms)
+2024-07-15 01:56:23.965 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:24.092 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (26.15ms)
+2024-07-15 01:56:26.591 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:26.831 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (15.3ms)
+2024-07-15 01:56:34.489 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:34.596 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (21.87ms)
+2024-07-15 01:56:35.411 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:56:36.927 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:56:56.236 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:56:56.424 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (105ms)
+2024-07-15 01:57:49.223 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 01:57:49.338 -06:00 [INF] Hot Reloading ExitState in PlayerDashExitState.cs  - Assembly-CSharp (12.83ms)
+2024-07-15 01:58:01.926 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:58:52.059 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:58:52.346 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (31.9ms)
+2024-07-15 01:58:55.544 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 01:58:59.063 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:58:59.336 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (16.82ms)
+2024-07-15 01:59:33.913 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 01:59:34.106 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (31.02ms)
+2024-07-15 02:01:23.043 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:01:23.151 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:01:23.529 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-15 02:01:27.443 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 02:01:27.443 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:01:27.443 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-15 02:01:27.443 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-15 02:01:27.443 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:01:27.443 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:01:32.172 -06:00 [INF] Compiling...
+2024-07-15 02:01:32.859 -06:00 [INF] Finished compiling in 0s
+2024-07-15 02:01:34.801 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:02:07.482 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:08.942 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:08.942 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:02:27.138 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:27.169 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:27.952 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-15 02:02:27.952 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:27.952 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:02:29.048 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:02:50.221 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:50.282 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:51.235 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-15 02:02:51.235 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:02:51.235 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:02:51.547 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:03:11.833 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:03:12.079 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(28,14): error CS1525: Invalid expression term ')'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(28,15): error CS1002: ; expected
+2024-07-15 02:03:13.046 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:03:13.076 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(28,14): error CS1525: Invalid expression term ')'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(28,15): error CS1002: ; expected
+2024-07-15 02:03:18.832 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:03:19.082 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(28,82): error CS1002: ; expected
+2024-07-15 02:03:25.635 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:03:25.890 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (63.01ms)
+2024-07-15 02:03:28.774 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:03:28.855 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (41.63ms)
+2024-07-15 02:03:32.135 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:03:32.329 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (14.55ms)
+2024-07-15 02:04:13.405 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:04:13.574 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerDashExitState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs(28,17): error CS0019: Operator '&&' cannot be applied to operands of type 'bool' and 'float'
+2024-07-15 02:04:18.671 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:04:18.839 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (21.4ms)
+2024-07-15 02:04:19.449 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:04:48.266 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:04:53.431 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:04:53.583 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (16.56ms)
+2024-07-15 02:04:58.529 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:04:58.611 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (43.45ms)
+2024-07-15 02:05:00.263 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:05:21.578 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:05:21.609 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:05:21.703 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:05:24.117 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:05:24.117 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:05:24.118 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:05:29.804 -06:00 [INF] Compiling...
+2024-07-15 02:05:30.475 -06:00 [INF] Finished compiling in 0s
+2024-07-15 02:05:32.336 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:06:36.997 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:06:36.997 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:06:37.732 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:06:37.732 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:06:40.612 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:07:26.700 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:07:26.763 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:07:26.809 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:07:28.331 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-15 02:07:28.331 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:07:28.331 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:07:31.400 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:07:31.509 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:07:32.303 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:07:32.303 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:07:32.934 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:08:21.971 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:08:22.034 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:08:22.081 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:08:23.041 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:08:23.041 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:08:23.168 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:08:41.399 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 02:08:41.677 -06:00 [INF] Hot Reloading StopDashing in PlayerDashState.cs  - Assembly-CSharp (101ms)
+2024-07-15 02:08:45.085 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:09:52.056 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:09:52.133 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:09:52.180 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:09:55.378 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-15 02:09:55.378 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-15 02:09:55.378 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:09:55.378 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:09:56.067 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:10:01.028 -06:00 [INF] Compiling...
+2024-07-15 02:10:01.698 -06:00 [INF] Finished compiling in 0s
+2024-07-15 02:10:02.967 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:10:27.594 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:10:27.673 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:10:29.296 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:10:29.296 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:10:45.783 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:11:29.097 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:11:29.144 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:11:29.221 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:11:30.360 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-15 02:11:30.360 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-15 02:11:30.360 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-15 02:11:31.101 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:11:50.788 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:11:50.898 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (71.26ms)
+2024-07-15 02:12:27.946 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:12:28.121 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (57.53ms)
+2024-07-15 02:12:33.858 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:12:34.084 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (15.97ms)
+2024-07-15 02:12:40.552 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:12:40.597 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (20.44ms)
+2024-07-15 02:13:39.784 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:14:04.802 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-15 02:14:30.077 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-15 02:14:30.333 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (15.58ms)
+2024-07-15 02:14:52.291 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity

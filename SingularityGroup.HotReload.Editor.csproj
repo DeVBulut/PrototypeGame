@@ -72,6 +72,7 @@
     <Compile Include="Packages\com.singularitygroup.hotreload\Editor\CLI\OsxCliController.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Editor\CLI\CliUtils.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Editor\Helpers\AssemblyOmission.cs" />
+    <Compile Include="Packages\com.singularitygroup.hotreload\Editor\InspectorFreezeFix.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Editor\Window\HotReloadWindow.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Editor\HotReloadState.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Editor\Installation\ServerDownloader.cs" />

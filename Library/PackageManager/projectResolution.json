@@ -292,7 +292,7 @@
       "name": "com.singularitygroup.hotreload",
       "resolvedPath": "C:\\Unity Projects\\PrototypeGame\\Packages\\com.singularitygroup.hotreload",
       "editorCompatibility": "2018.4.0a1",
-      "version": "1.12.9",
+      "version": "1.12.10",
       "source": "embedded"
     },
     "com.unity.modules.subsystems@1.0.0": {

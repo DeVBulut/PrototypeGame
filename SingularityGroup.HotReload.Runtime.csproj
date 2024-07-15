@@ -82,6 +82,7 @@
     <Compile Include="Packages\com.singularitygroup.hotreload\Runtime\PatchServerInfo.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Runtime\UnityHelper.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Runtime\InstallQRDialog.cs" />
+    <Compile Include="Packages\com.singularitygroup.hotreload\Runtime\HttpClientUtils.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Runtime\PersistencePaths.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Runtime\MonoBehaviours\RetryDialog.cs" />
     <Compile Include="Packages\com.singularitygroup.hotreload\Runtime\PlayerCodePatcher.cs" />

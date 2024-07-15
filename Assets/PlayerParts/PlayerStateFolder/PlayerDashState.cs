@@ -1,8 +1,12 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerDashState : PlayerState
 {
     float axis;
+    private Vector2 _dashingDir;
+    private float lastImageXpos;
     public SpriteRenderer sp;
     public PlayerDashState(PlayerController playerController, PlayerStateMachine playerStateMachine, Animator animator, Rigidbody2D rigidbody) : base(playerController, playerStateMachine, animator, rigidbody)
     {
@@ -10,23 +14,67 @@ public class PlayerDashState : PlayerState
 
     public override void PhysicsUpdate()
     {
-        rb.AddForce(new Vector2(40f * axis, 0));
+        
+        rb.velocity = _dashingDir * 5f;
     }
 
     public override void FrameUpdate()
     {
-        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash_2) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
+        if (Mathf.Abs(playerController.transform.GetComponent<Transform>().position.x - lastImageXpos) > 0.3f)
         {
-            //rb.velocityX = rb.velocityX -2f;
-            playerStateMachine.ChangeState(playerController.dashExitState);
+            PlayerAfterImagePool.Instance.GetFromPool();
+            lastImageXpos = playerController.transform.GetComponent<Transform>().position.x;
+        }
+
+        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash_Start) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
+        {
+            animator.Play(Anim.Dashing);
         }
     }
 
     public override void EnterState()
     {
+        //rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
         playerController.canMove = false;
-        rb.constraints = RigidbodyConstraints2D.FreezePositionY; 
-        //playerController.canMove = false;
+        CheckAxis();
+
+
+        _dashingDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        if(_dashingDir == Vector2.zero)
+        {
+            _dashingDir = new Vector2(axis, 0);
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
+        }
+        else if( _dashingDir == new Vector2(axis, 0))
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
+        }
+
+
+        animator.Play(Anim.Dash_Start);
+        PlayerAfterImagePool.Instance.GetFromPool();
+        lastImageXpos = playerController.transform.GetComponent<Transform>().position.x;
+
+        StartCoroutine(StopDashing());
+        Debug.Log(this.ToString());
+    }
+
+    public override void ExitState(PlayerState newState)
+    {
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    private IEnumerator StopDashing()
+    {
+        yield return new WaitForSeconds(0.3f);
+        playerController.canMove = true;
+        rb.velocity = Vector2.zero;
+        
+        playerStateMachine.ChangeState(playerController.dashExitState);
+    }
+
+    private void CheckAxis()
+    {
         if(sp.flipX == true)
         {
             axis = -1;
@@ -35,15 +83,5 @@ public class PlayerDashState : PlayerState
         {
             axis = 1;
         }
-        rb.velocity = Vector2.zero;
-        animator.Play(Anim.Dash_2);
-        Debug.Log(this.ToString());
-    }
-
-    public override void ExitState(PlayerState newState)
-    {
-        //playerController.canMove = true;
-        // rb.constraints = RigidbodyConstraints2D.None;
-        // rb.constraints = RigidbodyConstraints2D.FreezeRotation; 
     }
 }

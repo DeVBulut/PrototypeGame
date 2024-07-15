@@ -385,6 +385,7 @@
 "Packages/com.singularitygroup.hotreload/Runtime/Demo/Scripts/HotReloadBurstJobsDemo.cs"
 "Packages/com.singularitygroup.hotreload/Runtime/Demo/Scripts/IDemo.cs"
 "Packages/com.singularitygroup.hotreload/Runtime/HotReloadSettingsObject.cs"
+"Packages/com.singularitygroup.hotreload/Runtime/HttpClientUtils.cs"
 "Packages/com.singularitygroup.hotreload/Runtime/InstallQRDialog.cs"
 "Packages/com.singularitygroup.hotreload/Runtime/IpHelper.cs"
 "Packages/com.singularitygroup.hotreload/Runtime/IServerHealthCheck.cs"

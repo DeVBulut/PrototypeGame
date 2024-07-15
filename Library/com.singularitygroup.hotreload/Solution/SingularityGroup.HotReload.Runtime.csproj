@@ -63,6 +63,7 @@
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Runtime\PatchServerInfo.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Runtime\UnityHelper.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Runtime\InstallQRDialog.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Runtime\HttpClientUtils.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Runtime\PersistencePaths.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Runtime\MonoBehaviours\RetryDialog.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Packages\com.singularitygroup.hotreload\Runtime\PlayerCodePatcher.cs" />

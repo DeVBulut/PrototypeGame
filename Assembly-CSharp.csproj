@@ -71,10 +71,12 @@
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRunState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRunStopState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerLandState.cs" />
+    <Compile Include="Assets\PlayerParts\PlayerAfterImageSprite.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerFallState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerController.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRiseState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRollState.cs" />
+    <Compile Include="Assets\PlayerParts\PlayerAfterImagePool.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerPeakState.cs" />
     <Compile Include="Assets\InputSystem_Actions.cs" />
     <Compile Include="Assets\PlayerParts\PlayerState.cs" />

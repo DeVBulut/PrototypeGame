@@ -419,6 +419,7 @@
 "Packages/com.singularitygroup.hotreload/Editor/HotReloadPrefs.cs"
 "Packages/com.singularitygroup.hotreload/Editor/HotReloadSettingsEditor.cs"
 "Packages/com.singularitygroup.hotreload/Editor/HotReloadState.cs"
+"Packages/com.singularitygroup.hotreload/Editor/InspectorFreezeFix.cs"
 "Packages/com.singularitygroup.hotreload/Editor/Installation/DownloadUtility.cs"
 "Packages/com.singularitygroup.hotreload/Editor/Installation/ExponentialBackoff.cs"
 "Packages/com.singularitygroup.hotreload/Editor/Installation/InstallUtility.cs"

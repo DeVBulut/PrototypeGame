@@ -12,7 +12,8 @@ public static class Anim
     public const string Turn = "Run_Turn";
     public const string Land = "Land";
     public const string Roll = "Roll";
-    public const string Dash = "Dash";
-    public const string Dash_2 = "Dash_2";
-    public const string Dash_3 = "Dash_3";
+    public const string Dash_Start = "Dash_Start";
+    public const string Dashing = "Dashing";
+    public const string Dash_Exit = "Dash_End";
+
 }

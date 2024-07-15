@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float runSpeed = 5f;
     [SerializeField] float airSpeed = 4f;
     private float InputAxis;
-    private bool smoothingSwitch;
     public bool canMove;
     public LayerMask groundLayer;
     private Rigidbody2D rb;
@@ -95,7 +94,7 @@ public class PlayerController : MonoBehaviour
 
             //Velocities for Movement
             float variableSpeed = isGrounded() == true ? runSpeed : airSpeed;
-            float variableSmoothing = VariableList.movementSmoothing + (InputAxis != 0 && smoothingSwitch == false && isGrounded() ? VariableList.movementSmoothing : 0f);
+            float variableSmoothing = VariableList.movementSmoothing + (InputAxis != 0 ? VariableList.movementSmoothing : 0f);
 
 
             Vector2 targetVelocity = new Vector2(InputAxis * variableSpeed, rb.velocity.y);
