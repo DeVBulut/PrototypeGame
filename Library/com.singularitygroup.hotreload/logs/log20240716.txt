@@ -1,0 +1,75 @@
+2024-07-16 14:26:03.555 -06:00 [INF] Hot Reload Server is starting. Do not close this window.
+2024-07-16 14:26:03.560 -06:00 [INF] 
+2024-07-16 14:26:04.457 -06:00 [INF] Compiling... (the first time might take a minute, depending on project size)
+2024-07-16 14:26:08.560 -06:00 [INF] Finished compiling in 4s
+2024-07-16 14:26:08.561 -06:00 [INF] 
+2024-07-16 14:26:08.561 -06:00 [INF] Hot Reload Server is ready. Edit code to see updates in unity.
+2024-07-16 14:26:08.561 -06:00 [INF] Keep this window open while using Hot Reload (minimizing is OK)
+2024-07-16 14:27:11.883 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-16 14:27:13.116 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (966ms)
+2024-07-16 14:27:16.469 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-16 14:27:20.384 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:27:34.216 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:27:35.571 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-16 14:27:35.814 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:27:52.744 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-16 14:27:52.894 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (33.42ms)
+2024-07-16 14:28:11.045 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:28:12.393 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-16 14:28:12.595 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:29:47.263 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-16 14:29:47.433 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (83.46ms)
+2024-07-16 14:29:57.925 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-16 14:29:59.716 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:30:16.735 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:30:18.339 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-16 14:30:18.589 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:30:32.561 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:30:33.532 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-16 14:30:33.678 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:30:55.646 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-16 14:30:55.924 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(33,18): error CS1585: Member modifier 'private' must precede the member type and name
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs(35,6): error CS1520: Method must have a return type
+2024-07-16 14:30:56.856 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-16 14:30:57.166 -06:00 [INF] Hot Reloading .ctor in PlayerAfterImageSprite.cs  - Assembly-CSharp (66.19ms)
+2024-07-16 14:30:57.167 -06:00 [INF] Failed to resolve removed method: FixedUpdate
+2024-07-16 14:30:57.843 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-16 14:30:57.843 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerAfterImageSprite.cs
+2024-07-16 14:30:57.843 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-16 14:31:03.079 -06:00 [INF] Compiling...
+2024-07-16 14:31:03.710 -06:00 [INF] Finished compiling in 0s
+2024-07-16 14:31:27.662 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:31:28.704 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-16 14:31:28.874 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:31:31.935 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:31:33.563 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Prefabs/AfterImage.prefab
+2024-07-16 14:31:33.799 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:32:52.047 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-16 14:32:52.177 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (77.62ms)
+2024-07-16 14:32:53.556 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:33:02.734 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-16 14:33:02.895 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (33.52ms)
+2024-07-16 14:33:04.148 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:33:12.970 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-16 14:33:13.119 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (17.33ms)
+2024-07-16 14:33:14.426 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:33:22.061 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-16 14:33:22.124 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashState.cs  - Assembly-CSharp (23.64ms)
+2024-07-16 14:33:23.452 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:34:26.249 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-16 14:34:26.357 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-16 14:34:26.872 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashState.cs
+2024-07-16 14:34:26.872 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-16 14:34:26.873 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-16 14:34:32.470 -06:00 [INF] Compiling...
+2024-07-16 14:34:33.100 -06:00 [INF] Finished compiling in 0s
+2024-07-16 14:34:34.800 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:35:39.200 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-16 14:35:39.447 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (85.15ms)
+2024-07-16 14:35:44.165 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-16 14:35:44.376 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (17.95ms)
+2024-07-16 14:35:49.946 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-16 14:35:50.130 -06:00 [INF] Hot Reloading FrameUpdate in PlayerDashExitState.cs  - Assembly-CSharp (18.54ms)
+2024-07-16 14:35:53.405 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerDashExitState.cs
+2024-07-16 14:35:57.243 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-16 14:55:00.681 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity

@@ -20,7 +20,7 @@ public class PlayerDashState : PlayerState
 
     public override void FrameUpdate()
     {
-        if (Mathf.Abs(playerController.transform.GetComponent<Transform>().position.x - lastImageXpos) > 0.3f)
+        if (Mathf.Abs(playerController.transform.GetComponent<Transform>().position.x - lastImageXpos) > 0.35f)
         {
             PlayerAfterImagePool.Instance.GetFromPool();
             lastImageXpos = playerController.transform.GetComponent<Transform>().position.x;
@@ -39,7 +39,7 @@ public class PlayerDashState : PlayerState
         CheckAxis();
 
 
-        _dashingDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _dashingDir = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
         if(_dashingDir == Vector2.zero)
         {
             _dashingDir = new Vector2(axis, 0);

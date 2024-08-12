@@ -46,24 +46,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Code\Anim.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\VariableList.cs" />
-     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateMachine.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRunState.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Code\PlayerStateMachine.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRunStopState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerLandState.cs" />
-     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImageSprite.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerFallState.cs" />
-     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRiseState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRollState.cs" />
-     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerAfterImagePool.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\DeadRevolver\PixelPrototypePlayerSprites\Demo\Scripts\DemoUIManager.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerAttackNum1State.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerPeakState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\InputSystem_Actions.cs" />
-     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerIdleState.cs" />
-     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerAttackNum2State.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Code\PlayerState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Code\PlayerAfterImageSprite.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Code\PlayerAfterImagePool.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Code\PlayerController.cs" />
+     <Compile Include="C:\Unity Projects\PrototypeGame\Assets\DeadRevolver\PixelPrototypePlayerSprites\Demo\Scripts\PlayerPreviewManager.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRunStartState.cs" />
      <Compile Include="C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerTurnState.cs" />
      <Reference Include="UnityEngine">

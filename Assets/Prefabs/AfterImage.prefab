@@ -102,5 +102,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeTime: 0.5
   alphaSet: 0.8
-  alphaMultiplier: 0.9
+  alphaMultiplier: 0.8
   player: {fileID: 0}

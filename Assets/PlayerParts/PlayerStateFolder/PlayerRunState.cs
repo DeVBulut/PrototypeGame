@@ -18,7 +18,11 @@ public class PlayerRunState : PlayerState
     {
         float InputAxis = Input.GetAxisRaw("Horizontal");
         
-        if(InputAxis == 0 && Mathf.Abs(rb.velocity.x) < 1f)
+        if(!playerController.isGrounded())
+        {
+            playerStateMachine.ChangeState(playerController.fallState);
+        }
+        else if(InputAxis == 0 && Mathf.Abs(rb.velocity.x) < 1f)
         {
             playerStateMachine.ChangeState(playerController.runStopState);
         }

@@ -1,0 +1,8 @@
+2024-07-19 00:51:42.924 -06:00 [INF] Hot Reload Server is starting. Do not close this window.
+2024-07-19 00:51:42.929 -06:00 [INF] 
+2024-07-19 00:51:43.808 -06:00 [INF] Compiling... (the first time might take a minute, depending on project size)
+2024-07-19 00:51:48.147 -06:00 [INF] Finished compiling in 4s
+2024-07-19 00:51:48.148 -06:00 [INF] 
+2024-07-19 00:51:48.148 -06:00 [INF] Hot Reload Server is ready. Edit code to see updates in unity.
+2024-07-19 00:51:48.148 -06:00 [INF] Keep this window open while using Hot Reload (minimizing is OK)
+2024-07-19 00:57:58.493 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity

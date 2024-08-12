@@ -14,9 +14,13 @@ public class PlayerDashExitState : PlayerState
 
     public override void FrameUpdate()
     {
-        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash_Exit) && Input.GetAxisRaw("Horizontal") != 0)
+        if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash_Exit) && Input.GetAxisRaw("Horizontal") != 0 && playerController.isGrounded())
         {
             playerStateMachine.ChangeState(playerController.runState);
+        }
+        else if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash_Exit) && Input.GetAxisRaw("Horizontal") != 0 && !playerController.isGrounded())
+        {
+            playerStateMachine.ChangeState(playerController.fallState);
         }
         else if(this.animator.GetCurrentAnimatorStateInfo(0).IsName(Anim.Dash_Exit) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.99)
         {

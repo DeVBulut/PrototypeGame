@@ -65,24 +65,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerDashState.cs" />
+    <Compile Include="Assets\PlayerParts\Code\Anim.cs" />
     <Compile Include="Assets\VariableList.cs" />
-    <Compile Include="Assets\PlayerParts\PlayerStateMachine.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRunState.cs" />
+    <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs" />
+    <Compile Include="Assets\PlayerParts\Code\PlayerStateMachine.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRunStopState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerLandState.cs" />
-    <Compile Include="Assets\PlayerParts\PlayerAfterImageSprite.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerFallState.cs" />
-    <Compile Include="Assets\PlayerParts\PlayerController.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRiseState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRollState.cs" />
-    <Compile Include="Assets\PlayerParts\PlayerAfterImagePool.cs" />
+    <Compile Include="Assets\DeadRevolver\PixelPrototypePlayerSprites\Demo\Scripts\DemoUIManager.cs" />
+    <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerAttackNum1State.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerPeakState.cs" />
     <Compile Include="Assets\InputSystem_Actions.cs" />
-    <Compile Include="Assets\PlayerParts\PlayerState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerIdleState.cs" />
-    <Compile Include="Assets\PlayerParts\Anim.cs" />
+    <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerAttackNum2State.cs" />
+    <Compile Include="Assets\PlayerParts\Code\PlayerState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerDashExitState.cs" />
+    <Compile Include="Assets\PlayerParts\Code\PlayerAfterImageSprite.cs" />
+    <Compile Include="Assets\PlayerParts\Code\PlayerAfterImagePool.cs" />
+    <Compile Include="Assets\PlayerParts\Code\PlayerController.cs" />
+    <Compile Include="Assets\DeadRevolver\PixelPrototypePlayerSprites\Demo\Scripts\PlayerPreviewManager.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerRunStartState.cs" />
     <Compile Include="Assets\PlayerParts\PlayerStateFolder\PlayerTurnState.cs" />
   </ItemGroup>

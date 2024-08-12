@@ -1,0 +1,410 @@
+2024-07-29 00:33:54.390 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/JoannaD'ArcIIIMoveset#2.aseprite
+2024-07-29 00:33:54.798 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/JoannaD'ArcIIIMoveset#2.aseprite.meta
+2024-07-29 00:33:54.798 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/JoannaD'ArcIIIMoveset#2.aseprite
+2024-07-29 00:33:54.798 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:34:22.831 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 00:34:22.893 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 00:34:22.941 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 00:34:23.392 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-29 00:34:40.652 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/JoannaD'ArcIIIMoveset#2.aseprite
+2024-07-29 00:34:40.652 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/JoannaD'ArcIIIMoveset#2.aseprite.meta
+2024-07-29 00:34:40.652 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite.meta
+2024-07-29 00:34:40.652 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite
+2024-07-29 00:34:40.652 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-29 00:34:40.652 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 00:34:40.741 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite.meta
+2024-07-29 00:35:30.444 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite
+2024-07-29 00:35:30.523 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite
+2024-07-29 00:35:31.286 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite.meta
+2024-07-29 00:35:31.286 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite
+2024-07-29 00:35:31.286 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:41:33.651 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs.meta
+2024-07-29 00:41:33.651 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:41:33.831 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs
+2024-07-29 00:41:34.962 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:41:39.910 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:41:40.069 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs
+2024-07-29 00:41:41.305 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:41:41.305 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:41:41.313 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs
+2024-07-29 00:41:42.004 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:41:46.447 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:41:46.572 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs
+2024-07-29 00:41:48.293 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:41:48.293 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:41:48.307 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs
+2024-07-29 00:41:52.334 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:41:52.566 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs
+2024-07-29 00:41:52.948 -06:00 [INF] Compiling...
+2024-07-29 00:41:54.569 -06:00 [INF] Finished compiling in 1s
+2024-07-29 00:41:59.446 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:41:59.811 -06:00 [WRN] errors: InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:9
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:9)
+InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:15
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:15)
+InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:28
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:28)
+InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:33
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:33)
+InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:9
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:9)
+InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:15
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:15)
+InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:28
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:28)
+InsertVirtual ClassMethodDeclaration: Adding an abstract method or overriding an inherited method requires recompiling in unity. in PlayerRestState.cs:33
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs:33)
+2024-07-29 00:42:01.600 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:42:01.600 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:42:05.417 -06:00 [INF] Compiling...
+2024-07-29 00:42:06.068 -06:00 [INF] Finished compiling in 0s
+2024-07-29 00:53:09.363 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:20.665 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:20.819 -06:00 [WRN] errors: Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:18
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:18)
+2024-07-29 00:53:22.477 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:22.477 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:53:26.088 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:26.331 -06:00 [WRN] errors: Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:19
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:19)
+2024-07-29 00:53:28.115 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:28.115 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:53:32.656 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:32.825 -06:00 [WRN] errors: Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+2024-07-29 00:53:34.017 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:34.017 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:53:36.242 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:36.328 -06:00 [WRN] errors: Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+2024-07-29 00:53:37.964 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:37.965 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:53:39.614 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:39.827 -06:00 [WRN] errors: Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:19
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:19)
+Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:19
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:19)
+Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:19
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:19)
+2024-07-29 00:53:41.530 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:41.530 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:53:45.329 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:45.575 -06:00 [WRN] errors: Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:18
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:18)
+Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:18
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:18)
+Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:18
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:18)
+2024-07-29 00:53:48.002 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:53:48.002 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 00:53:51.816 -06:00 [INF] Compiling...
+2024-07-29 00:53:52.419 -06:00 [INF] Finished compiling in 0s
+2024-07-29 00:55:37.179 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 00:55:47.520 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:55:48.462 -06:00 [INF] Hot Reloading EnterState in PlayerRestState.cs  - Assembly-CSharp (888ms)
+2024-07-29 00:56:18.326 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:56:18.598 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(17,12): error CS0103: The name 'InputAxis' does not exist in the current context
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(21,17): error CS0103: The name 'InputAxis' does not exist in the current context
+2024-07-29 00:56:25.165 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:56:25.342 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(21,17): error CS0103: The name 'InputAxis' does not exist in the current context
+2024-07-29 00:56:57.158 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:56:57.328 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(17,12): error CS0019: Operator '&&' cannot be applied to operands of type 'bool' and 'method group'
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(21,17): error CS0103: The name 'InputAxis' does not exist in the current context
+2024-07-29 00:57:31.599 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:57:31.832 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(21,17): error CS0103: The name 'InputAxis' does not exist in the current context
+2024-07-29 00:57:49.232 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:57:49.332 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(19,22): error CS1501: No overload for method 'Play' takes 0 arguments
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(21,17): error CS0103: The name 'InputAxis' does not exist in the current context
+2024-07-29 00:57:55.418 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:57:55.570 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(21,17): error CS0103: The name 'InputAxis' does not exist in the current context
+2024-07-29 00:57:56.468 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:57:56.570 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(21,17): error CS0103: The name 'InputAxis' does not exist in the current context
+2024-07-29 00:58:07.988 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:58:08.150 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(22,12): error CS1525: Invalid expression term ')'
+2024-07-29 00:58:11.354 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:58:11.619 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (54.46ms)
+2024-07-29 00:58:15.842 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 00:58:16.092 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (24.02ms)
+2024-07-29 01:00:04.973 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:00:05.078 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(24,61): error CS1001: Identifier expected
+2024-07-29 01:00:34.470 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs.meta
+2024-07-29 01:00:34.470 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:00:34.470 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:00:34.568 -06:00 [WRN] Some of the recent file changes could not be applied: 
+File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:00:40.355 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:00:40.558 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:00:42.553 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:00:42.553 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 01:00:42.554 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:00:42.569 -06:00 [WRN] Some of the recent file changes could not be applied: 
+File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:00:53.216 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:00:53.310 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:00:55.248 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:00:55.248 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:00:55.310 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:00:55.857 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:00:57.787 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:00:57.818 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:00:59.131 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:00:59.131 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:00:59.319 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:01:00.490 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:01:32.315 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:01:32.589 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerController.cs:42
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs:42)
+2024-07-29 01:01:34.689 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:01:34.690 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:01:40.377 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:01:40.577 -06:00 [WRN] errors: InsertNotSupportedByRuntime FieldDeclaration: Adding field requires recompiling in unity. in PlayerController.cs:43
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs:43)
+2024-07-29 01:01:41.971 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:01:41.971 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:01:54.686 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:01:54.843 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(24,61): error CS1001: Identifier expected
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-29 01:01:58.630 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:01:58.835 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(24,61): error CS1001: Identifier expected
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(68,9): error CS0103: The name 'restStateState' does not exist in the current context
+2024-07-29 01:01:59.333 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:01:59.585 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(24,61): error CS1001: Identifier expected
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-29 01:02:04.388 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:02:04.576 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(24,61): error CS1001: Identifier expected
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-29 01:02:05.361 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:02:05.577 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(24,61): error CS1001: Identifier expected
+  C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-29 01:03:57.542 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:03:57.581 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs, PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-29 01:03:58.956 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:03:59.076 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs, PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-29 01:04:07.265 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:04:07.312 -06:00 [WRN] File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:04:10.251 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:04:10.251 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:04:10.251 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:04:10.251 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:04:10.315 -06:00 [WRN] Some of the recent file changes could not be applied: 
+File is not part of any project: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs
+2024-07-29 01:04:10.324 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs, PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(43,12): error CS0246: The type or namespace name 'PlayerSleepState' could not be found (are you missing a using directive or an assembly reference?)
+2024-07-29 01:04:12.971 -06:00 [INF] Compiling...
+2024-07-29 01:04:13.636 -06:00 [INF] Finished compiling in 0s
+2024-07-29 01:04:15.595 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:04:15.887 -06:00 [INF] Hot Reloading EnterState in PlayerSleepState.cs  - Assembly-CSharp (69.43ms)
+2024-07-29 01:04:28.546 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:04:28.627 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (60.93ms)
+2024-07-29 01:04:59.296 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:04:59.331 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerSleepState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs(18,18): error CS1501: No overload for method 'GetKeyDown' takes 0 arguments
+2024-07-29 01:05:17.413 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:05:17.584 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs(18,29): error CS1525: Invalid expression term ')'
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs(18,29): error CS1002: ; expected
+C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs(18,29): error CS1513: } expected
+2024-07-29 01:05:20.282 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:05:20.341 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (22.41ms)
+2024-07-29 01:05:21.484 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:05:25.405 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:05:25.586 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (18.53ms)
+2024-07-29 01:05:25.909 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:05:28.220 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:05:28.349 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (29.98ms)
+2024-07-29 01:05:29.650 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:05:39.171 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:05:39.335 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (18.25ms)
+2024-07-29 01:05:41.949 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:05:48.106 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:05:48.342 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (25.24ms)
+2024-07-29 01:05:52.107 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:05:52.323 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(20,19): error CS1501: No overload for method 'Log' takes 0 arguments
+2024-07-29 01:06:00.829 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:06:01.093 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (17.9ms)
+2024-07-29 01:06:01.832 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:06:05.059 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:06:37.643 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:06:42.104 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:07:29.329 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:07:39.897 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:08:17.771 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:08:43.178 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:08:43.338 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerController.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(94,30): error CS7036: There is no argument given that corresponds to the required parameter 'newState' of 'PlayerStateMachine.ChangeState(PlayerState)'
+2024-07-29 01:08:45.420 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:08:45.590 -06:00 [INF] Hot Reloading HandleResting in PlayerController.cs  - Assembly-CSharp (25.45ms)
+2024-07-29 01:08:46.826 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:08:51.512 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:17:00.807 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:00.869 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:00.932 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:00.978 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:01.871 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-29 01:17:03.039 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:17:18.706 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:18.770 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:18.800 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:18.878 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:20.808 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:17:20.808 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:17:20.808 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:17:20.808 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite.meta
+2024-07-29 01:17:20.808 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:20.808 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:17:25.949 -06:00 [INF] Compiling...
+2024-07-29 01:17:26.556 -06:00 [INF] Finished compiling in 0s
+2024-07-29 01:17:31.628 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite
+2024-07-29 01:17:31.799 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/MoveSetSprite2.aseprite.meta
+2024-07-29 01:17:32.485 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:17:33.202 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:33.249 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:33.280 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:33.311 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:33.375 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:34.327 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:17:34.327 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:17:52.402 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:18:19.276 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:18:19.376 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (62.86ms)
+2024-07-29 01:18:47.434 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:18:47.599 -06:00 [INF] Hot Reloading HandleResting in PlayerController.cs  - Assembly-CSharp (33.83ms)
+2024-07-29 01:19:08.176 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:19:08.338 -06:00 [INF] Hot Reloading HandleResting in PlayerController.cs  - Assembly-CSharp (17.16ms)
+2024-07-29 01:19:09.820 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:19:21.326 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:19:21.575 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerController.cs(92,47): error CS1525: Invalid expression term ')'
+2024-07-29 01:20:10.521 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:20:52.951 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:20:53.085 -06:00 [INF] Hot Reloading HandleResting in PlayerController.cs  - Assembly-CSharp (19.51ms)
+2024-07-29 01:20:53.970 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:20:55.662 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:21:00.025 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:21:23.857 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:21:24.100 -06:00 [INF] Hot Reloading HandleResting in PlayerController.cs  - Assembly-CSharp (33.38ms)
+2024-07-29 01:21:26.065 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:21:38.301 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:22:07.400 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:22:07.447 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:22:07.509 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:22:07.586 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:22:08.862 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:22:26.564 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:22:26.835 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (15.08ms)
+2024-07-29 01:22:29.770 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:22:31.203 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:22:34.142 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:22:34.336 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (17.45ms)
+2024-07-29 01:22:41.147 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:22:41.343 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (15.46ms)
+2024-07-29 01:22:46.281 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:22:46.348 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (15.41ms)
+2024-07-29 01:22:48.453 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:22:48.582 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (14.19ms)
+2024-07-29 01:22:50.833 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:23:40.773 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:23:40.804 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:23:40.865 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:23:41.730 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:23:47.927 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 01:23:51.485 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 01:23:51.570 -06:00 [WRN] errors: Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+Renamed FieldDeclaration: Renaming const field requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+2024-07-29 01:23:53.964 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:23:53.964 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerController.cs
+2024-07-29 01:23:53.964 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:23:53.964 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 01:23:53.964 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:23:54.419 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 01:23:54.570 -06:00 [WRN] errors: Update FieldDeclaration: Updating 'const field' requires recompiling in unity. in Anim.cs:20
+(at C:\Unity Projects\PrototypeGame\Assets\PlayerParts\Anim.cs:20)
+2024-07-29 01:23:58.494 -06:00 [INF] Compiling...
+2024-07-29 01:23:59.160 -06:00 [INF] Finished compiling in 0s
+2024-07-29 01:24:01.842 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:24:02.141 -06:00 [INF] Hot Reloading EnterState in PlayerSleepState.cs  - Assembly-CSharp (71.37ms)
+2024-07-29 01:24:08.856 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:24:09.087 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (21.92ms)
+2024-07-29 01:24:12.110 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:24:12.334 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (15.91ms)
+2024-07-29 01:24:13.122 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:24:17.528 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:24:17.603 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (38.38ms)
+2024-07-29 01:24:18.493 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:24:22.894 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:24:24.373 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:24:44.305 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:24:45.412 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:24:45.412 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:24:45.412 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:24:45.412 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Anim.cs
+2024-07-29 01:24:45.412 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:24:50.596 -06:00 [INF] Compiling...
+2024-07-29 01:24:51.251 -06:00 [INF] Finished compiling in 0s
+2024-07-29 01:24:52.592 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:24:52.592 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:24:58.224 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:24:58.832 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:24:58.832 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:24:59.552 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:24:59.552 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:25:09.528 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:25:09.589 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:25:09.838 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:25:10.607 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:25:10.607 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:25:10.765 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:25:13.031 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:26:06.753 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:26:12.479 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:26:12.543 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:26:12.605 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:26:12.770 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:26:13.854 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:26:13.854 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/Movement_SpritePack.aseprite
+2024-07-29 01:26:13.854 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Packages\com.singularitygroup.hotreload
+2024-07-29 01:48:33.302 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:49:30.367 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:49:30.648 -06:00 [INF] Hot Reloading EnterState in PlayerRestState.cs  - Assembly-CSharp (71.77ms)
+2024-07-29 01:49:35.518 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:49:35.592 -06:00 [INF] Hot Reloading ExitState in PlayerRestState.cs  - Assembly-CSharp (22.77ms)
+2024-07-29 01:49:41.720 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:49:41.833 -06:00 [INF] Hot Reloading ExitState in PlayerRestState.cs  - Assembly-CSharp (13.19ms)
+2024-07-29 01:49:49.852 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:49:50.102 -06:00 [INF] Hot Reloading EnterState in PlayerSleepState.cs  - Assembly-CSharp (26.53ms)
+2024-07-29 01:49:50.605 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:49:57.995 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:49:58.079 -06:00 [INF] Hot Reloading ExitState in PlayerSleepState.cs  - Assembly-CSharp (16.49ms)
+2024-07-29 01:50:00.067 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:51:28.098 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:51:28.348 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (25.93ms)
+2024-07-29 01:51:31.351 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:52:04.254 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:52:04.338 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (17.07ms)
+2024-07-29 01:52:33.209 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:52:33.350 -06:00 [INF] Hot Reloading EnterState in PlayerRestState.cs  - Assembly-CSharp (27.78ms)
+2024-07-29 01:52:33.694 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:52:37.671 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:53:31.273 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:53:31.343 -06:00 [WRN] Error in Step 3 Assembly-CSharp PlayerRestState.cs: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerRestState.cs(32,32): error CS7036: There is no argument given that corresponds to the required parameter 'newState' of 'PlayerStateMachine.ChangeState(PlayerState)'
+2024-07-29 01:53:34.971 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:53:35.086 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (15.75ms)
+2024-07-29 01:53:37.312 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:53:40.038 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:53:40.083 -06:00 [WRN] Scripts have compile errors: C:\Unity Projects\PrototypeGame\Assets\PlayerParts\PlayerStateFolder\PlayerSleepState.cs(25,73): error CS1002: ; expected
+2024-07-29 01:53:44.425 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:54:13.920 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:54:14.084 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (18.01ms)
+2024-07-29 01:54:28.780 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:54:28.840 -06:00 [INF] Hot Reloading FrameUpdate in PlayerSleepState.cs  - Assembly-CSharp (23.75ms)
+2024-07-29 01:54:29.501 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerSleepState.cs
+2024-07-29 01:54:32.097 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:54:55.223 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:54:55.365 -06:00 [INF] Hot Reloading FrameUpdate in PlayerRestState.cs  - Assembly-CSharp (41.52ms)
+2024-07-29 01:54:56.583 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\PlayerParts/PlayerStateFolder/PlayerRestState.cs
+2024-07-29 01:54:58.516 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
+2024-07-29 01:55:11.224 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity

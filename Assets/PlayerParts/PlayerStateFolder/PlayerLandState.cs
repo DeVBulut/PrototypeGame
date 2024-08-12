@@ -20,7 +20,7 @@ public class PlayerLandState : PlayerState
         {
             playerStateMachine.ChangeState(playerController.idleState);
         }
-        else if(InputAxis != 0 && Mathf.Abs(rb.velocity.x) < 1.5f)
+        else if(InputAxis != 0 && Mathf.Abs(rb.velocity.x) < 6f)
         {
             playerStateMachine.ChangeState(playerController.runState);
         }
