@@ -1,0 +1,7 @@
+2024-11-16 16:08:12.012 -07:00 [INF] Hot Reload Server is starting. Do not close this window.
+2024-11-16 16:08:12.018 -07:00 [INF] 
+2024-11-16 16:08:13.003 -07:00 [INF] Compiling... (the first time might take a minute, depending on project size)
+2024-11-16 16:08:15.313 -07:00 [INF] Finished compiling in 2s
+2024-11-16 16:08:15.314 -07:00 [INF] 
+2024-11-16 16:08:15.314 -07:00 [INF] Hot Reload Server is ready. Edit code to see updates in unity.
+2024-11-16 16:08:15.314 -07:00 [INF] Keep this window open while using Hot Reload (minimizing is OK)

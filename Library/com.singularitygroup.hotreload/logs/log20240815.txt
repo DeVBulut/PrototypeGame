@@ -1,0 +1,9 @@
+2024-08-15 04:21:00.007 -06:00 [INF] Hot Reload Server is starting. Do not close this window.
+2024-08-15 04:21:00.011 -06:00 [INF] 
+2024-08-15 04:21:01.154 -06:00 [INF] Compiling... (the first time might take a minute, depending on project size)
+2024-08-15 04:21:06.756 -06:00 [INF] Finished compiling in 5s
+2024-08-15 04:21:06.757 -06:00 [INF] 
+2024-08-15 04:21:06.757 -06:00 [INF] Hot Reload Server is ready. Edit code to see updates in unity.
+2024-08-15 04:21:06.757 -06:00 [INF] Keep this window open while using Hot Reload (minimizing is OK)
+2024-08-15 04:22:00.149 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Fonts/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+2024-08-15 04:22:00.149 -06:00 [INF] Detected change in C:/Unity Projects/PrototypeGame/Assets\Scenes/SampleScene.unity
