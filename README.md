@@ -90,17 +90,9 @@ Movement is implemented using `SmoothDamp` for responsive control with tunable s
 
 ---
 
-## 🖼️ Screenshots
-
-![FSM View](Assets/Screenshots/state_machine_flow.png)
-*Sample transitions visualized from development.*
-
----
-
 ## 🚧 Status
 
 This system is in an active but paused state. The foundational state machine and controller logic is complete and functional. Future improvements could include:
-- Animator State Machine integration
 - Modular behavior tree layering
 - ScriptableObject-driven config per state
 
